@@ -8,4 +8,4 @@
 - A main structure of this folder will be :
     1. Words.md for English words I am not familiar with.
     2. Iteration of thoughts like drafts, and notes.
-    3. Contains notes for the future such as things to read or practice, agreements disagreement and finally conclusion
+    3. Contains notes for the future such as things to read or practice, agreements disagreements and finally conclusion
