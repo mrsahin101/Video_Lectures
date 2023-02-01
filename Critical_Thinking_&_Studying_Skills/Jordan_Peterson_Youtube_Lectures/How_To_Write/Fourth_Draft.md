@@ -56,7 +56,13 @@ Then instantly start writing without worrying about editing in the first place.
    Don't edit while you producing. Leave it after you finish writing.
 
 
+## WHY TO EDIT?
 
+### USED
+    Because you are exploring its okay to throw it up. You taking chances. The more iteration you make the better most likely to get essay or the research.
+    You want to drive a reader to a conclusion. Make it as exciting as a journey.This is not actually only for writing, but also thinkering about something. It helps alot.
+    Hemingway was throwing little bit away. He was good writer.
+### CULLS
 
 
 
@@ -65,42 +71,31 @@ Then instantly start writing without worrying about editing in the first place.
 ## HOW TO EDIT ?
 
 ### USED
-- Conceptual framework for editing.
-    1. Words should be the right words. Make sure words are the exact way of expressing the idea.
-    2. Make sure words fit together strongly. Each sentence has strongly fitted together
-    3. Each paragraph is sequenced properly together. 
-    4. Each paragraph and section must be sequenced together properly. 
-    5. You write sentences again. And then choose between sentences. Re-order them.
-    6. When you decide you can't make it any better you are done. But it doesn't mean it's best because you can't do it any better means making better is impossible. 
-    7. Try not to go too far into editing.
-    8. Depending on the subject maybe try to get feedback. Being criticized is a good thing.
-    9. When editing reading sentences a loud could be very helpful. it cleans up thinking.
-
-When you edit throw each word in the sentence possible and still it makes sense. Try to shorten the sentence by %25.
-After you have first draft you edit it. When editing you throw it out. Useless content.
-  When editing put the first draft left side and then edit on a new clean paper and edit constantly.
-  Because you are exploring its okay to throw it up. You taking chances.
-    You want to drive a reader to a conclusion. Make it as exciting as a journey.This is not actually only for writing, but also thinkering about something. It helps alot
-
-    After getting first draft cut it into pieces out and write second draft. Go by each sentence by sentence, words by words, paragraph by paragraph cut it out, reorganize it, question your thought process. Keep do this recursively. Until you believe that you cant improve it anymore. But this doesnt mean that what you have written isnt improvable.
- If you wanna think something through this is how you do it.
+     When you edit throw each word in the sentence possible and still it makes sense. Try to     shorten the sentence by %25.After you have first draft you edit it. When editing put the first draft left side and then edit on a new clean paper and edit constantly. 
+   
+Cut it into pieces out and write second draft. Go by each sentence by sentence, words by words, paragraph by paragraph cut it out, reorganize it, question your thought process. Keep do this recursively. Until you believe that you cant improve it anymore. But this doesnt mean that what you have written isnt improvable.
+If you wanna think something through this is how you do it.
  Whats the conceptual framework for editing : The words should be right words. Make sure each word is exact for that sentence. Phrases is properly phrased. Make sure each paragraphs are in context with other paragraphs. You write each sentence again again again. Then choose between sentences and throw others. Then reorder the sentences. Often Jordan Peterson keep throw sentences in some document.
-Hemingway was throwing little bit away. He was good writer.
-### CULLS
 
-    
-    
-    
+### CULLS
+When editing you throw it out
+Useless content.
+  
+
+
+
+
+
 ## CONCLUSION
 
 ### USED
 
-- Write first draft as fastest you can.
+
 
 Those who formulate their arguments they win. Life is about negotiating.,
 You have to write constantly. You have give it everyday some chunk of time. You can get tremendous distance in a year.When writing there is hard part to it. If you pass that hardness something massive opens up on the otherside.When writing about your past it makes you shed baggage. If you write about your future it is much more likely to make you put your plans into action and make you more successful.Never postponed stuff. Do it in flow. Try to write every day.
 ### CULLS
-
+- Write first draft as fastest you can.
 
 ## SUGGESTIONS
 
@@ -113,7 +108,7 @@ Gotta check maps of meaning and 12 Rules for life by Jordan Peterson.
 
 
 
-### SUMMARY
+## SUMMARY
 
 - In summary
     1. Write to improve your thinking.
@@ -134,7 +129,16 @@ Gotta check maps of meaning and 12 Rules for life by Jordan Peterson.
     10. Add **references** for facts, opinions, and quotations that you need to attribute to other people.
 
 
-
+- Conceptual framework for editing.
+    1. Words should be the right words. Make sure words are the exact way of expressing the idea.
+    2. Make sure words fit together strongly. Each sentence has strongly fitted together
+    3. Each paragraph is sequenced properly together. 
+    4. Each paragraph and section must be sequenced together properly. 
+    5. You write sentences again. And then choose between sentences. Re-order them.
+    6. When you decide you can't make it any better you are done. But it doesn't mean it's best because you can't do it any better means making better is impossible. 
+    7. Try not to go too far into editing.
+    8. Depending on the subject maybe try to get feedback. Being criticized is a good thing.
+    9. When editing reading sentences a loud could be very helpful. it cleans up thinking.
 
 
 
