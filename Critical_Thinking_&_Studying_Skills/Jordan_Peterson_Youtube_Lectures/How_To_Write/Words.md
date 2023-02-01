@@ -30,4 +30,4 @@
 - **tremendous** : muazzam, çok büyük;
 - **deriving** : türeyen, çıkarmak, sağlamak;
 - **analogous** : benzer, benzeşen, analojik;
-- **tremendous** : muazzam, çok büyük, heybetli, kocaman; 
+- **tremendous** : muazzam, çok büyük, heybetli, kocaman;
