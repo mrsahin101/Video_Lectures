@@ -44,6 +44,9 @@ After getting first draft cut it into pieces out and write second draft. Go by e
  If you wanna think something through this is how you do it.
 Whats the conceptual framework for editing : The words should be right words. Make sure each word is exact for that sentence. Phrases is properly phrased. Make sure each paragraphs are in context with other paragraphs. You write each sentence again again again. Then choose between sentences and throw others. Then reorder the sentences. Often Jordan Peterson keep throw sentences in some document.
 
+Then instantly start writing without worrying about editing in the first place.
+You write down everything. If you are stuck you write I'm stuck here. Then after you write all your thoughts you do the first draft. Then you edit it. You throw it useless content. But that's okay because if you want to produce high-quality content this process is necessary.Don't edit while you producing. Leave it after you finish writing.
+
 ### CLUSS
 Before writing, you have to do background research. Get knowledge about the domain or do thinking about a subject.
     First of all, you need a subject(problem) to write on. -> You want to have a problem you want to solve.
@@ -69,9 +72,18 @@ When you edit throw each word in the sentence possible and still it makes sense.
     
     
 ## CONCLUSION
+
+### USED
 - being criticize is good thing.
- Then instantly start writing without worrying about editing in the first place.
-You write down everything. If you are stuck you write I'm stuck here. Then after you write all your thoughts you do the first draft. Then you edit it. You throw it useless content. But that's okay because if you want to produce high-quality content this process is necessary.Don't edit while you producing. Leave it after you finish writing. When editing put the first draft left side and then edit on a new clean paper and edit constantly.
+- Write first draft as fastest you can.
+
+Those who formulate their arguments they win. Life is about negotiating.,
+You have to write constantly. You have give it everyday some chunk of time. You can get tremendous distance in a year.When writing there is hard part to it. If you pass that hardness something massive opens up on the otherside.When writing about your past it makes you shed baggage. If you write about your future it is much more likely to make you put your plans into action and make you more successful.Never postponed stuff. Do it in flow. Try to write every day.
+### CLUSS
+
+
+
+  When editing put the first draft left side and then edit on a new clean paper and edit constantly.
 
 - Write first draft as fastest you can.
 Hemingway was throwing little bit away. He was good writer.
@@ -84,6 +96,3 @@ When you do recursive iteration you words have rhytm. Thats makes it more readab
 
 
 
-
-Those who formulate their arguments they win. Life is about negotiating.,
-You have to write constantly. You have give it everyday some chunk of time. You can get tremendous distance in a year.When writing there is hard part to it. If you pass that hardness something massive opens up on the otherside.When writing about your past it makes you shed baggage. If you write about your future it is much more likely to make you put your plans into action and make you more successful.Never postponed stuff. Do it in flow. Try to write every day.
