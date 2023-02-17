@@ -38,3 +38,9 @@
 - Work progressively. Don't get stucked on 1 subject forever.
 
 ![Learn to Prioritize](https://github.com/mrsahin101/Video_Lectures/blob/main/Critical_Thinking_%26_Studying_Skills/Birkbeck_University_Study_Skills_Workshop/Images/Prioritize.PNG)
+
+- Must enjoy life. Everything has place. Working, Socializing, Exercising, Getting Enough sleep.
+
+- Match your intellectual peak time for difficult work tasks.
+
+- Identify where to study.
