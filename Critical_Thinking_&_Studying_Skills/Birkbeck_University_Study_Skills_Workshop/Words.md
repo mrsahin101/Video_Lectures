@@ -7,3 +7,4 @@
 - **dairy** : günlük;
 - **clash** : çarpışma, çatışma, uyumsuzluk;
 - **procrastination** : erteleme, oyalanma, geciktirme, ağırdan alma;
+- **venue** : mekan, buluşma yeri, mahkeme yeri, olay yeri;
