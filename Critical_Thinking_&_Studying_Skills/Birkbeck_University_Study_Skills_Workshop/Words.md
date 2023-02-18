@@ -15,3 +15,6 @@
 - **synopsis** : özet;
 - **relevant** : ilgili, uygun, konu ile ilgili;
 - **particular** : özel, belirli, husus, ayrıntı, detaylı, özgü;
+- **scopus** : dürbün;
+- **proquest** : teklif;
+- **enthusiast** : meraklı, hayran, meraklı kimse;

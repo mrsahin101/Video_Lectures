@@ -8,3 +8,5 @@
 - This workshop series is presented by Richard Carabine from Birkbeck University.
 
 - This is link of workshop : https://www.youtube.com/watch?v=AdUplvFY0sU&list=PLFATtWkTsM-P5n1glYWMpHn7bEmEkScXp&index=15
+
+- All though this is for managment department focus, I think it contains very good resources to apply all fields such as engineering, and science;
