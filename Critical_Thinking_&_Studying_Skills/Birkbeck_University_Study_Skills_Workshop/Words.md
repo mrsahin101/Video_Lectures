@@ -24,3 +24,4 @@
 - **frantic** : çılgınca, hummalı, ümitsiz;
 - **concise** : özlu, kısa, veciz;
 - **rubbish** : zırva, saçma, döküntü, saçmalık;
+- **thorough** : kapsamlı, eksiksiz, mükemmel;
