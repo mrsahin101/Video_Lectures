@@ -78,3 +78,6 @@
 3. Tell them what you just told them.
 
 ![Structue of Presentation](https://github.com/mrsahin101/Video_Lectures/blob/main/Critical_Thinking_%26_Studying_Skills/Birkbeck_University_Study_Skills_Workshop/Images/Structure.PNG)
+
+### Good Presentation
+![Good Presentation](https://github.com/mrsahin101/Video_Lectures/blob/main/Critical_Thinking_%26_Studying_Skills/Birkbeck_University_Study_Skills_Workshop/Images/Good_Presentation.PNG)

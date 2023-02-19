@@ -18,3 +18,9 @@
 - **scopus** : dürbün;
 - **proquest** : teklif;
 - **enthusiast** : meraklı, hayran, meraklı kimse;
+- **thesis** : tez, sav;
+- **incentives** : teşvikler, güdü, dürtü, özendirme;
+- **irrigation** : sulama;
+- **frantic** : çılgınca, hummalı, ümitsiz;
+- **concise** : özlu, kısa, veciz;
+- **rubbish** : zırva, saçma, döküntü, saçmalık;
