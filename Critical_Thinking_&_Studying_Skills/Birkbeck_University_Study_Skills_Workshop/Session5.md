@@ -12,5 +12,5 @@
 - If you want to learn how to reference : Look it up for Harvard Referencing.
 
 ### Plagirism
-![Essay Planning ](https://github.com/mrsahin101/Video_Lectures/blob/main/Critical_Thinking_%26_Studying_Skills/Birkbeck_University_Study_Skills_Workshop/Images/Plagirism.PNG)
+![Plagisirim ](https://github.com/mrsahin101/Video_Lectures/blob/main/Critical_Thinking_%26_Studying_Skills/Birkbeck_University_Study_Skills_Workshop/Images/Plagirism.PNG)
 

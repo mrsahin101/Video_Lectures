@@ -25,3 +25,7 @@
 - **concise** : özlu, kısa, veciz;
 - **rubbish** : zırva, saçma, döküntü, saçmalık;
 - **thorough** : kapsamlı, eksiksiz, mükemmel;
+- **conjucture** : varsayım, tahmin, varsaymak;
+- **verdict** : karar, hüküm, yargı;
+- **impartial** : tarafsız, yansız, adil;
+- **hemisphere** : yarım küre, yarı küre;
