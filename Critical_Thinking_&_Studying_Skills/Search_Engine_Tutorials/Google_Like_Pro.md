@@ -67,3 +67,9 @@
     6. map:location -> returns map of given location
     7. movie: name -> it will return info about given name movie.
     8. stocks: commodity -> return info about given commodity
+
+## Google Lens, Images.
+- For **Google Lens** ,You can filter color,size, transpercy your search.
+- Also you can use real time text translation with google lens.
+- Use **Google Scholar** for academic researchs, for niche search.
+- **Google Patents** : could be used for patents search
