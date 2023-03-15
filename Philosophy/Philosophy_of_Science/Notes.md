@@ -1,0 +1,5 @@
+- Plato was using method of reasoning from his own ideas, Aristotele was reasoning from nature.
+- Rene Descartes developed dualism. Basically he was saying, physical world and metaphysic world are connected. He was also saying science and philiosophy are our attempt to understand the world.
+- Descartes, Hume and Kant are main people in field of philosophy of science.
+- Hegel was another important figure in developing philosophy of science.
+- Comte did developed positivism. Which is almost root of today science method.

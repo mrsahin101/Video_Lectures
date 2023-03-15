@@ -9,3 +9,4 @@ Video lectures I go through to improve my skills
 
 - After getting ideas and writing them down, I will be thinking about them formulating them, and trying to drive conclusions from them to become better thinker and solve engineering problems.
 
+- This will a place where I dumb information that I learned through visual media.
