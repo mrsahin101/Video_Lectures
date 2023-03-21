@@ -1,0 +1,31 @@
+# This file will contain English words that I am not fimiliar with and their corresponding Turkish translation 
+
+- **comprise** : içermek, kapsamak, oluşmak, ihtiva etmek;
+- **premise** : öncül, önceden açıklamak;
+- **ampliative** : büyütücü;
+- **cogent** : inandırıcı, ikna edici;
+- **inference** : çıkarım, sonuç çıkarma, anlam;
+- **abductive** : kaçırma;
+- **discrepancy** : tutarsızlık, farklılık, çelişki;
+- **nemesis** : düşman, intikam, öç;
+- **deductive** : tümdengelim, anlaşılabilir, sonuç çıkarılabilir;
+- **persuasive** : ikna edici, inandırıcı;
+- **correspondence** : yazışma, haberleşme, benzeşme, uygunluk;
+- **proposition** : önerme, teklif, öneri, sav, mesele, cümle;
+- **fallacies** : yanılgılar, safsata, yanlış inanç, mantıksızlık;
+- **equivocation** : kelime oyunu, kaçamaklı söz;
+- **rumors** : söylentiler;
+- **taxidermy** : tahnitçilik, hayvan doldurma;
+- **muffler** : susturucu, atkı;
+- **virtues** : erdemler;
+- **condemning** : kınayan;
+- **fallacy** : safsata, yanlış, yanlış inanış, mantıksızlık;
+- **hypocircy** : ikiyüzlülük;
+- **straw** : pipet, saman, hasır, kamış;
+- **endorse** : onaylamak, desteklemek, havale etmek;
+- **red herring** : dikkat dağıtmak için ortaya atılmış konu;
+- **relevance** : ilgi, uygunluk, ilişki, alaka;
+- **adequate** : uygun, yeterli, elverişli;
+- **anchor** : çapa, dayanak noktası, demir;
+- **aversion** : tiksinme, nefret, isteksizlik, sevmeme;
+- **indulge** : şımartmak, içmek, memnun etmek;
