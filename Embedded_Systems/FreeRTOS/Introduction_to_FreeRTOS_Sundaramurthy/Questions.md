@@ -1,0 +1,1 @@
+# This file will contain questions came into my mind during this lecture.
