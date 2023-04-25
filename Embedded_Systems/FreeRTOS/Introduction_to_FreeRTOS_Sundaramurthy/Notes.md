@@ -30,3 +30,15 @@
 - Scheduler(Kernel) is managing the multi-tasking. 
 
 - Super-Loop only could be stoped by interrupts.
+
+## Scheduling
+- Scheduler must know 
+    1. Number of tasks
+    2. Resource Requirments
+    3. Execution time
+    4. Deadlines
+    5. Priority
+
+- Hardware Interrupts are always highest priority.
+
+- In other words, Operating Systems provides API for Application layer. It hides hardware complexity from Application layer.
