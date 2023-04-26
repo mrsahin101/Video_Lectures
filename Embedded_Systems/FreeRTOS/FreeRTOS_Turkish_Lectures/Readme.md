@@ -2,3 +2,5 @@
 - FreeRTOS ve Real-time Sistemler konusunda kendimi geliştirmek için takip edeceğim.
 
 - Video serisinin linki : https://www.youtube.com/@gomulusistemlermuhendislik9213/about
+
+- Elimde STM32F407-Discovery Board olduğu için örnekleri ona uydurarak yapıcağım.

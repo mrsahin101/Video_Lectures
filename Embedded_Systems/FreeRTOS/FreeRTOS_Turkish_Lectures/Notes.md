@@ -57,14 +57,31 @@
 ## FreeRTOS Data Types and Coding Manual
 - FreeRTOS'un her bağlantı noktası **TickType_t**, **BaseType_t** isimli veri tipleri içerir. Bu tanımlamalar **portmacro.h** içerisinde tanımlanır.
 
-![Source Files !](./Images/FreeRTOS_Tick_Base.PNG);
+![Source Files !](./Images/FreeRTOS_Tick_Base.PNG)
 
 - Kodlama yaparken signed veya unsigned acikca belirtilmelidir. Düz **int** tipler asla kullanılmaz.
 
-- Degisken isimleri degisken türlerine göre adlandırılır.
+- Değişken isimleri degisken türlerine göre adlandırılır. Prefix şeklinde kullanılan değişkene eklenir.
     1. char -> **c**
     2. short(16-bit) -> **s**
     3. int32_t(32-bit) -> **l**
     4. Ve standart olmayan tüm tipler(structures, task handles, queue handles vs.) için **x** kullanılır.
     5. Bir değişken işaretsizse **u** ayrıca eklenir.
     6. Pointer icinse **p** eklenir.
+    7. Void için **v** prefix olarak eklenir.
+    8. Private içinse **prv** prefix olarak kullanılır.
+
+- Macroların çoğu büyük harflerle tanımlanmıştır. 
+
+## FreeRTOS Manual Integration to CUBEIDE
+- Bu videoda anlatılıyor : https://www.youtube.com/watch?v=KKH0NjUYF_Y
+
+- CubeMX üzerinden bir kod generasyonu yapıp, temel yapıyı generate etmesini sağlıyoruz. Timer1' i **Time Base source** olarak ayarlıyoruz. Daha başka birşey eklemeden kodumuzu generate ediyoruz.
+
+- FreeRTOS websitesinden FreeRTOS'u indiririz. FreeRTOS'u zipten çıkarırız. CubeIDE projesinde Middlewares ve Third_Party klasörlerini oluşturuyoruz.(nested bir şekilde) Daha sonra indirdiğimiz FreeRTOS zip dosyasının içindeki source klasörünü olduğu gibi Third_Party'nin altına kopyalıyoruz. Aşağıdaki gibi bir dosya yapısı oluşmalıdır.
+
+![Source Files !](./Images/FreeRTOS_Manual1.PNG)
+
+- Daha sonra **Source** klasörü içinde Portable klasörüne gidiyoruz. Burada **GCC** ve **MemMang** kalıcak şekilde diğer dosyaları siliyoruz. MemMang içinde heap_4 ve kullandığımız çekirdeğin derleyicisi kalıcak şekilde diğer dosyaları siliyoruz.
+
+![Source Files !](./Images/FreeRTOS_Manual2.PNG)
