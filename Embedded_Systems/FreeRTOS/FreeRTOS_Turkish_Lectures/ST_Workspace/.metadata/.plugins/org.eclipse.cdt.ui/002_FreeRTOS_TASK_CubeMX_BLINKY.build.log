@@ -1,0 +1,10 @@
+09:13:57 **** Incremental Build of configuration Debug for project 002_FreeRTOS_TASK_CubeMX_BLINKY ****
+make -j4 all 
+arm-none-eabi-size   002_FreeRTOS_TASK_CubeMX_BLINKY.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21080	    124	  20676	  41880	   a398	002_FreeRTOS_TASK_CubeMX_BLINKY.elf
+Finished building: default.size.stdout
+ 
+
+09:13:58 Build Finished. 0 errors, 0 warnings. (took 448ms)
+

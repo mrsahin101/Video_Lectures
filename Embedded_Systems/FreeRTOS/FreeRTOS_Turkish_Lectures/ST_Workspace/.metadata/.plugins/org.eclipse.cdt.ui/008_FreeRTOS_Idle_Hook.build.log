@@ -1,0 +1,10 @@
+11:25:06 **** Incremental Build of configuration Debug for project 008_FreeRTOS_Idle_Hook ****
+make -j4 all 
+arm-none-eabi-size   008_FreeRTOS_Idle_Hook.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23944	    136	  20688	  44768	   aee0	008_FreeRTOS_Idle_Hook.elf
+Finished building: default.size.stdout
+ 
+
+11:25:06 Build Finished. 0 errors, 0 warnings. (took 452ms)
+

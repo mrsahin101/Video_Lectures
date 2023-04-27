@@ -59,29 +59,23 @@ void SystemClock_Config(void)
 
 static void MX_GPIO_Init(void)
 {
-
   __HAL_RCC_GPIOH_CLK_ENABLE();
-
 }
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
-
   if (htim->Instance == TIM1) {
     HAL_IncTick();
   }
-
 }
 
 void Error_Handler(void)
 {
-
   __disable_irq();
   while (1)
   {
 
   }
-
 }
 
 #ifdef  USE_FULL_ASSERT
