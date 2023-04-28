@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:010_FreeRTOS_Task_Delete Debug
+configDescList=
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002_FreeRTOS_TASK_CubeMX_BLINKY\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002_FreeRTOS_TASK_CubeMX_BLINKY\ Debug/activeLaunchTarget=null\:---
@@ -10,3 +10,7 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:007_FreeRTOS_vTaskDelayUntil\ D
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008_FreeRTOS_Idle_Hook\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:009_FreeRTOS_Task_Priority_GETSET\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:010_FreeRTOS_Task_Delete\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_FreeRTOS_QUEUE_SENDER_RECEIVER\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:012_FreeRTOS_QUEUE_MULTIPLE_SENDER\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:013_FreeRTOS_QUEUE_SET\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:013_FreeRTOS_QUEUE_SET\ Debug/activeLaunchTarget=null\:---

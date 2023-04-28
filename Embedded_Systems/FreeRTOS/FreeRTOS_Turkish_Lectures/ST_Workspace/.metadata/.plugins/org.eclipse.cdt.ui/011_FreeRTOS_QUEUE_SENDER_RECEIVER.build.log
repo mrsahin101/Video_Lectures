@@ -1,0 +1,10 @@
+15:51:29 **** Incremental Build of configuration Debug for project 011_FreeRTOS_QUEUE_SENDER_RECEIVER ****
+make -j4 all 
+arm-none-eabi-size   011_FreeRTOS_QUEUE_SENDER_RECEIVER.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23884	    124	  20692	  44700	   ae9c	011_FreeRTOS_QUEUE_SENDER_RECEIVER.elf
+Finished building: default.size.stdout
+ 
+
+15:51:30 Build Finished. 0 errors, 0 warnings. (took 447ms)
+
