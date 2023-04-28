@@ -90,3 +90,5 @@
 - Prototip : <code>QueueSetHandle_t xQueueCreateSet(const UBaseType_t uxEventQueueLength);</code>
 - Parametreler 
     1. **uxEventQueueLength** : Maksimum tutulacak kuyruk sayısının uzunluğu. 
+
+- Queue yapısını bir posta kutusu olarakta kullanabiliriz. Genelde bir görevden, yada bir ISR'dan bir göreve veri aktarmak için kullanılır. Mailbox yapısında olan Queue'lar sadece **1** elemanlıdır.

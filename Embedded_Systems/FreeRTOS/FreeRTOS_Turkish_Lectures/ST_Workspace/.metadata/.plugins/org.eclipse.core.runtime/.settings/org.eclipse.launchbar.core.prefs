@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002_FreeRTOS_TASK_CubeMX_BLINKY\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002_FreeRTOS_TASK_CubeMX_BLINKY\ Debug/activeLaunchTarget=null\:---
@@ -14,3 +14,7 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_FreeRTOS_QUEUE_SENDER_RECEI
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:012_FreeRTOS_QUEUE_MULTIPLE_SENDER\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:013_FreeRTOS_QUEUE_SET\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:013_FreeRTOS_QUEUE_SET\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:014_FreeRTOS_SOFTWARE_TIMERS\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:015_FreeRTOS_SOFTWARE_TIMERS_SAME_CALLBACK\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD\ Debug/activeLaunchTarget=null\:---

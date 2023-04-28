@@ -1,0 +1,10 @@
+14:56:42 **** Incremental Build of configuration Debug for project 016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD ****
+make -j4 all 
+arm-none-eabi-size   016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24072	    124	  20692	  44888	   af58	016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.elf
+Finished building: default.size.stdout
+ 
+
+14:56:43 Build Finished. 0 errors, 0 warnings. (took 497ms)
+
