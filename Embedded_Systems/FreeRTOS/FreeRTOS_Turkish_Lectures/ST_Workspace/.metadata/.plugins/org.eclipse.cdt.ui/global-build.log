@@ -1,25 +1,22 @@
-14:56:38 **** Incremental Build of configuration Debug for project 016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD ****
+15:41:40 **** Incremental Build of configuration Debug for project 017_FreeRTOS_BINARY_SEMAPHORE ****
 make -j4 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'vKeyHitTask':
-../Core/Src/main.c:80:13: warning: variable 'xKeyPressesStopApplication' set but not used [-Wunused-but-set-variable]
-   80 |  BaseType_t xKeyPressesStopApplication;
-      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~
-arm-none-eabi-gcc -o "016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\FreeRTOS_Turkish_Lectures\ST_Workspace\016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.elf
+../Core/Src/main.c: In function 'ulExampleInterruptHandler':
+../Core/Src/main.c:125:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  125 | }
+      | ^
+At top level:
+../Core/Src/main.c:117:17: warning: 'ulExampleInterruptHandler' defined but not used [-Wunused-function]
+  117 | static uint32_t ulExampleInterruptHandler(void)
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "017_FreeRTOS_BINARY_SEMAPHORE.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\FreeRTOS_Turkish_Lectures\ST_Workspace\017_FreeRTOS_BINARY_SEMAPHORE\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="017_FreeRTOS_BINARY_SEMAPHORE.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 017_FreeRTOS_BINARY_SEMAPHORE.elf
  
-arm-none-eabi-size   016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.elf 
-arm-none-eabi-objdump -h -S  016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.elf  > "016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.list"
+arm-none-eabi-size   017_FreeRTOS_BINARY_SEMAPHORE.elf 
+arm-none-eabi-objdump -h -S  017_FreeRTOS_BINARY_SEMAPHORE.elf  > "017_FreeRTOS_BINARY_SEMAPHORE.list"
    text	   data	    bss	    dec	    hex	filename
-  24072	    124	  20692	  44888	   af58	016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.elf
+  22784	    124	  20684	  43592	   aa48	017_FreeRTOS_BINARY_SEMAPHORE.elf
 Finished building: default.size.stdout
  
-Finished building: 016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.list
- 
-14:56:42 **** Incremental Build of configuration Debug for project 016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD ****
-make -j4 all 
-arm-none-eabi-size   016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.elf 
-   text	   data	    bss	    dec	    hex	filename
-  24072	    124	  20692	  44888	   af58	016_FreeRTOS_SOFTWARE_TIMERS_CHANGE_PERIOD.elf
-Finished building: default.size.stdout
+Finished building: 017_FreeRTOS_BINARY_SEMAPHORE.list
  

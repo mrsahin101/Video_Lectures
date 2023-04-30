@@ -9,3 +9,5 @@
 1682606110507	Delete resource '011_FreeRTOS_QUEUE_SENDER_RECEIVER/011_FreeRTOS_QUEUE_SENDER_RECEIVER.ioc'
 1682606116818	Delete resource '010_FreeRTOS_Task_Delete/010_FreeRTOS_Task_Delete.ioc'
 1682606125266	Delete resource '009_FreeRTOS_Task_Priority_GETSET/009_FreeRTOS_Task_Priority_GETSET.ioc'
+1682772277727	Delete resource '017_FreeRTOS_BINARY_SEMAPHORE/Core/Inc/supporting_functions'
+1682772357962	Delete resource '017_FreeRTOS_BINARY_SEMAPHORE/Core/Inc/supporting_functions.h'
