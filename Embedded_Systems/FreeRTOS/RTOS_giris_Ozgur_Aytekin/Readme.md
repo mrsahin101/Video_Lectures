@@ -1,0 +1,4 @@
+- Ozgur Aytekin is Embedded Firmware Developer at Collins Aerospace
+- Lives in Germany.
+- I will go through this online webinar, in order to understand What Real-time systems are and what they are used for.
+- Video Tutorial Link : https://www.youtube.com/watch?v=n9plPNjK_uE
