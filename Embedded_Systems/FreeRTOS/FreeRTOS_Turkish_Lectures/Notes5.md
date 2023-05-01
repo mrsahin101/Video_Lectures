@@ -58,9 +58,39 @@
 ```
 
 - Sayma Semaforları genellikle 2 durum için kullanılır
-    1. **Olayları Sayma** : Bir olay her gerçekleştiğinde semafor verir. Olay işlendiğindede semafor azalır. Kuyruktaki semafor sayısı gerçekleşen olaylarla işlenen olaylar arasındaki farktır.
+    1. **Olayları Sayma** : Bir olay her gerçekleştiğinde semafor verir. Olay işlendiğindede semafor azalır. Kuyruktaki semafor sayısı gerçekleşen olaylarla işlenen olaylar arasındaki farktır. <code>SemaphoreHandle_t xSemaphoreCreateCounting( UBaseType_t uxMaxCount,UBaseType_t uxInitialCount);</code>
     2. **Kaynak Yönetimi** : Bir kaynağın denetimini elde etmek için görev, önce semaforda elde edilmesi gerekir.Semaforun sayım değeri 0'a ulaştığında boş kaynak yoktur.Bir görev bittiğinde, semaforu geri vererek sayım değerini arttırır.
-
+d
     ![Interrupt](./Images/FreeRTOS_Interrupt6.PNG)
     ![Interrupt](./Images/FreeRTOS_Interrupt7.PNG)
     ![Interrupt](./Images/FreeRTOS_Interrupt8.PNG)
+
+
+- **RTOS DEAMON** : Merkezi ertelenmiş kesme işleme noktasıdır.Bunu <code>xTimerPendFunctionCallFromISR()</code> ile yapabiliriz. Bu daha düşük kaynak kullanımını sağlar. Her interrupt için ayrı bir görev oluşturma ihtiyacını ortadan kaldırır. Basitleştirilmiş bir kullanıcı modeli sunar. Fakat daha az esneklik sağlar. Fakat verimli hafıza kullanımı sağlar.Ayrıca ertelenmiş görevler için ayrı ayrı öncelik ayarlamak mümkün **değildir**. Dolayısıyla hepsi **DEAMON** görevi önceliğinde yürütülür. Bu önceliği FreeRTOSConfig.h içerisindeki aşağıdaki makroyla ayarlarız. Bu yapıyı kullanmak daha az determinizm sağlar.
+- Prototip : <code>BaseType_t xTimerPendFunctionCallFromISR(PendedFunction_t xFunctionToPend,void *pvParameter1,uint32_t ulParameter2,BaseType_t *pxHigherPriorityTaskWoken );</code>
+
+``` C
+#define configTIMER_TASK_PRIORITY (oncelik numarasi)
+```
+![Interrupt](./Images/FreeRTOS_Interrupt9.PNG)
+
+- **RTOS DEAMON** içerisinde kuyrukları kullanma : Semaforlar olayları iletmek için kullanılır. **xQueueSendToFrontFromISR()** kesme güvenli rutindir. Ayrıca **xQueueSendToBackFromIsr()** da kesme güvenli versiyondur. Ayrıca **xQueueReceiveFromISR()** da kesme güvenli versiyondur.
+- Prototipler -> **xQueueSendToFrontFromISR()** -> <code>BaseType_t xQueueSendToFrontFromISR(QueueHandle_t xQueue, const void *pvItemToQueue,BaseType_t *pxHigherPriorityTaskWoken);"</code>
+**xQueueSendtToBackFromISR()** -> <code>BaseType_t xQueueSendToBackFromISR(QueueHandle_t xQueue,const void *pvItemToQueue, BaseType_t *pxHigherPriorityTaskWoken);</code>
+**xQueueReceiveFromISR()** -> <code>BaseType_t xQueueReceiveFromISR(QueueHandle_t xQueue,void *pvBuffer,BaseType_t *pxHigherPriorityTaskWoken);</code>
+
+- ISR'dan Queue kullanılırken dikkat edilmesi gereken noktalar :
+    1. Kesmeden göreve veri geçirirken Queue bize kolaylık sağlar. Ancak veriler sıklıkla geliyorsa Queue kullanmak verimli değildir.
+    2. Karakteri almak için DMA kullanma. Bunun yazılıma bir yükü yoktur.Daha sonra veriye erişecek taskın engelleni kaldırıp işlem yapılır
+    3. Algılanan her iş parçacığı güvenli bir RAM belleğe kopyalanır. Daha sonra taskin engellini kaldırırız.
+    4. Alınan karakterleri doğrudan ISR içinde işleme
+
+    ![Interrupt](./Images/FreeRTOS_Interrupt10.PNG)
+
+- NestedInterrupt : Karışıklığın ortaya çıkması yaygındır. FreeRTOSConfig.h içerisinde aşağıdaki makrolarla ayarlama yapıyoruz. Donanım ISR'ın ne zaman yürütüleceğine karar  verirken, yazılım taskların ne zaman yürütüleceğine karar verir. 
+
+``` C
+#define configMAX_SYSCALL_INTERRUPT_PRIORITY
+#define configMAX_API_CALL_INTERRUPT_PRIORITY
+```
+![Interrupt](./Images/FreeRTOS_Interrupt11.PNG)
