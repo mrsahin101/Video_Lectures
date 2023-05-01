@@ -39,5 +39,28 @@
 
 ![Interrupt](./Images/FreeRTOS_Interrupt4.PNG)
 
-- **xSemaphoreCreateBinary()** : İkili semafor oluşturmak için kullanılır. 
-- Prototip : <code>SemaphoreHandle_t xSemaphoreCreateBinary(void)</code>
+- **xSemaphoreCreateBinary()** : İkili semafor oluşturmak için kullanılır. NULL değilse oluşturulamadı demektir. 
+- Prototip : <code>SemaphoreHandle_t xSemaphoreCreateBinary(void)</code> 
+
+- **xSemaphoreTake()** : Semaforu almak için kullanılır. Ancak mevcutsa alınabilir. Bir ISR içerisinde kullanılmamalıdır. **Özyenilemeli mutexler(Recursive)** hariç tüm FreeRTOS semaforları bununla alınabilir.
+- Prototip : <code>BaseType_t xSemaphoreTake(SemaphoreHandle_t xSemaphore, TickType_t xTicksToWait);</code>
+
+- **xSemaphoreGiveFromISR()** : ISR içerisinden semaforu vermek için kullanılır. **xSemaphoreGive()** fonksiyonun kesme güvenli versiyonudur.
+- Prototip : <code>BaseType_t xSemaphoreGiveFromISR(SemaphoreHandle_t xSemaphore, BaseType_t *pxHigherPriorityTaskWoken);</code>
+
+![Interrupt](./Images/FreeRTOS_Interrupt5.PNG)
+
+- xSemaphoreTake fonksiyonu genelde bir timeout değeriyle kullanılır. Eğer verilen timeout değerinde bu semaphore oluşmazsa xSemaphore take <code>pdFAIL</code> döndürecektir. Dolayısıyla burada bir hata durumunda ne aksiyon alıcağı konusunda bize kolaylık sağlamış olur. Bunun için <code>if(xSemaphoreTake(xBinarySemaphore, xMaxExpectedBlockTime) == pdFAIL)</code> şeklinde bir kontrol sağlayabiliriz.
+
+- **Sayma Semaforları** : Birden fazla uzunluğa sahip kuyruklar olarak düşünülebilir.Görevler kuyruktaki verilerle **değil** kuyruktaki **öğe sayısıyla** ilgilenir. FreeRTOSConfig.h içerisinde aşağıdaki makro aktif edilirse kullanılabilirler. 
+``` C
+#define configUSE_COUNTING_SEMAPHORES 1
+```
+
+- Sayma Semaforları genellikle 2 durum için kullanılır
+    1. **Olayları Sayma** : Bir olay her gerçekleştiğinde semafor verir. Olay işlendiğindede semafor azalır. Kuyruktaki semafor sayısı gerçekleşen olaylarla işlenen olaylar arasındaki farktır.
+    2. **Kaynak Yönetimi** : Bir kaynağın denetimini elde etmek için görev, önce semaforda elde edilmesi gerekir.Semaforun sayım değeri 0'a ulaştığında boş kaynak yoktur.Bir görev bittiğinde, semaforu geri vererek sayım değerini arttırır.
+
+    ![Interrupt](./Images/FreeRTOS_Interrupt6.PNG)
+    ![Interrupt](./Images/FreeRTOS_Interrupt7.PNG)
+    ![Interrupt](./Images/FreeRTOS_Interrupt8.PNG)
