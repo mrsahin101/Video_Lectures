@@ -1,0 +1,10 @@
+23:45:37 **** Incremental Build of configuration Debug for project 004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS ****
+make -j4 all 
+arm-none-eabi-size   004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25468	    132	  18140	  43740	   aadc	004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.elf
+Finished building: default.size.stdout
+ 
+
+23:45:38 Build Finished. 0 errors, 0 warnings. (took 624ms)
+

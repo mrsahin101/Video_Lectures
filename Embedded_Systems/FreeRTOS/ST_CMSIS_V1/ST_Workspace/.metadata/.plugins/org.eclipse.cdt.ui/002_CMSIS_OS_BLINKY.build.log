@@ -1,0 +1,10 @@
+17:49:16 **** Incremental Build of configuration Debug for project 002_CMSIS_OS_BLINKY ****
+make -j4 all 
+arm-none-eabi-size   002_CMSIS_OS_BLINKY.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17168	     24	  20344	  37536	   92a0	002_CMSIS_OS_BLINKY.elf
+Finished building: default.size.stdout
+ 
+
+17:49:16 Build Finished. 0 errors, 0 warnings. (took 367ms)
+

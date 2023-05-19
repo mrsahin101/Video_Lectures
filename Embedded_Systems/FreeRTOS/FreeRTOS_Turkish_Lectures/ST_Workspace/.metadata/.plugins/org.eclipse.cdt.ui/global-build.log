@@ -1,4 +1,4 @@
-12:45:13 **** Incremental Build of configuration Debug for project 018_FreeRTOS_Interrupt_Management ****
+09:36:12 **** Incremental Build of configuration Debug for project 018_FreeRTOS_Interrupt_Management ****
 make -j4 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "018_FreeRTOS_Interrupt_Management.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\FreeRTOS_Turkish_Lectures\ST_Workspace\018_FreeRTOS_Interrupt_Management\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="018_FreeRTOS_Interrupt_Management.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -7,8 +7,15 @@ Finished building target: 018_FreeRTOS_Interrupt_Management.elf
 arm-none-eabi-size   018_FreeRTOS_Interrupt_Management.elf 
 arm-none-eabi-objdump -h -S  018_FreeRTOS_Interrupt_Management.elf  > "018_FreeRTOS_Interrupt_Management.list"
    text	   data	    bss	    dec	    hex	filename
-  27600	    124	  20692	  48416	   bd20	018_FreeRTOS_Interrupt_Management.elf
+  27880	    124	  20692	  48696	   be38	018_FreeRTOS_Interrupt_Management.elf
 Finished building: default.size.stdout
  
 Finished building: 018_FreeRTOS_Interrupt_Management.list
+ 
+09:36:26 **** Incremental Build of configuration Debug for project 018_FreeRTOS_Interrupt_Management ****
+make -j4 all 
+arm-none-eabi-size   018_FreeRTOS_Interrupt_Management.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27880	    124	  20692	  48696	   be38	018_FreeRTOS_Interrupt_Management.elf
+Finished building: default.size.stdout
  

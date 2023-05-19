@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="#define configUSE_TIMERS"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="YIELD"/>
+			<item value="yield"/>
 			<item value="#define configUSE_TIMERS"/>
 			<item value="#define configUSE_QUEUE_SETS 1"/>
 			<item value="HAL_UART_Transmit(&amp;huart2, (uint8_t *)(&quot;Gorev 1 calisiyor&quot;), 19, 0xFFFF);"/>
