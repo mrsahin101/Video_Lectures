@@ -288,7 +288,7 @@ osStatus osThreadSuspendAll(void);
 - **Queues** : Allows to pass more information between tasks. Suspend task if it tries **put** to full queue or **get** from empty one
 - Queues are pipes to transfer data between tasks.
 - Default behaviour is **FIFO**(First In - First Out), but it could be used as **LIFO**(Last in - First Out)
-- Native API Function <code>xQueueSendToFron()</code> not available on CMSIS RTOS
+- Native API Function <code>xQueueSendToFront()</code> not available on CMSIS RTOS
 - All data sent to queue must be same type, declared during queue **creating** phase. It can be simple **variable** or **structure**
 - In CMSIS RTOS API there are 2 types of queue
     1. **Message** : where once can send only **integer type** or a **pointer**

@@ -1,0 +1,10 @@
+00:51:35 **** Incremental Build of configuration Debug for project 001_FREERTOS_CMSIS_V2_LAB_PREPARATION ****
+make -j4 all 
+arm-none-eabi-size   001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23352	     24	  20480	  43856	   ab50	001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf
+Finished building: default.size.stdout
+ 
+
+00:51:35 Build Finished. 0 errors, 0 warnings. (took 509ms)
+
