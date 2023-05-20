@@ -402,4 +402,189 @@ osStatus osSemaphoreRelease(osSemaphoreId semaphore_id);
     2. **Resource management** : The count value indicates resource **available**. To obtain control of resource, task must first obtain a semaphore.It is desired count value to be **maximum** value when semaphore created.
 - API functions are same as Binary semaphores.
 
-## Signals
+## Signals(Task Notification)
+- CMSIS OS covers Task notification by **less** featured Signals
+- Each FreeRTOS task has **32-bit** notification value.
+- Direct Task notifications are **faster** and has **lower** RAM footprint compare to other synchronization(queues, semaphores, event groups) objects.
+- But they have some limitations, 
+    1. Task notification can be used to notify **only** one task.
+    2. Sending task cannot wait in **BLOCKED** state if notification wasnt received by received task. Cant wait in **BLOCKED** state like its on queues to wait queue become free.
+
+- Signals are used to **trigger** execution states between threads and from IRQ to threads.
+- Each thread has up to 31 assigned signal flags.
+- The maximum number of signal flags is defined in cmsis_os.h file.(osFeature_Signals). It is not possible to configure from CubeMX
+- Functions :
+``` C
+/* osSignalSet() set specified signal flags of an active thread */
+int32_t osSignalSet(osThreadId thread_id, int32_t signals);
+
+/* osSignalWait() wait for one or more signal flags for running thread */
+osEvent osSignalWait(int32_t signals, uint32_t millisec);
+```
+- Signals cannot be used for following things
+    1. To send event or data to IRQ
+    2. To communicate with more than one task
+    3. To buffer multiple data items.
+
+## Resources Management
+- **Critical Sections** : when it is necessary to block small piece of code inside task against task **switching** or **interrupts**. Starting with <code>taskENTER_CRITICAL()</code> and end with <code>taskEXIT_CRITICAL</code>. This macros uses <code>BASEPRI</code> register.
+
+- **Suspending Scheduler** : When waiting on interrupt and no task switching allowed. <code>vTaskSuspendAll()</code> blocks **context switching** with interrupts **enabled**. Unblock is done with <code>vTaskResumeAll()</code>
+- It is **not allowed** to run any FreeRTOS API functions when scheduler **suspended**
+
+- **GateKeeper Task** : Dedicated procedure managing selected resource(peripheral), No risk of priority inversion, It has ownership of a resource and can access it directly, Other task can **access** protected resource indirectly via gatekeeper task.
+- **Mutexes** : Kind of binary semaphore **shared** between tasks.
+
+## Mutexes
+- Mutex is **binary semaphore**.
+- Binary semaphore is **better** for implementing synchronization.(between tasks or tasks and interrupts). Mutex is **better** for mutual exclusion(Access resource)
+- Mutex is acts like token that **guards** resource. When tasks wishes to access resource, it must first **obtain** the token. When it finished it must give token back. In case of **recursive mutex** it should give many times at it was succesfully taken.
+
+- Mutexes uses same API as semaphores.
+
+- Unlike binary semaphores, Mutexes uses **priority inheritance**. This means when higher priority task blocked waiting for mutex by lower priority task, then lower priority task priority raised to same level of higher priority task. 
+- Mutex management functions cannot be called from ISR. 
+- A task must not be **deleted** while holding the mutex
+- **Priority Inversion** : Where higher priority task **waiting** for lower priority task to give control of the mutex, and lower priority task not able to **execute**. **Priority inheritance** is solution to priority inversion but its not recommended to rely on it.
+- **Deadlock** : Two different task waiting for different resource. But they both waiting for each other resource. This end up with locking both task.
+- API Functions :
+``` C
+/* Mutex Creation */
+osMutexId osMutexCreate(const osMutexDef_t *mutex_def);
+/* Wait for mutex release */
+osStatus osMutexWait(osMutexId mutex_id, uint32_t millisec);
+/* Mutex release */
+osStatus osMutexRelease(osMutexId mutex_id);
+```
+- Recursive Mutex API Functions :
+``` C
+/* Recursive mutex creation */
+osMutexId osRecursiveMutexCreate(const osMutexDef_t *mutex_def);
+/* Wait for recursive mutex release */
+osStatus osRecursiveMutexWait(osMutexId mutex_id, uint32_t millisec);
+/* Recursive mutex release */
+osStatus osRecursiveMutexRelease(osMutexId mutex_id);
+``` 
+![RTOS](.//Images/CMSIS_OS_Mutex.PNG)
+
+## Software Timers
+- With default settings, timers are **disabled**. They are standart component of **almost** every RTOS
+- FreeRTOS software timers allows execute **callback** at a set of time. Timer callbacks are executed in context of timer service task.
+- Timer callbacks **must not** call blocking(vTaskDelay, vTaskDelayUntil) functions.
+- It is **not** precise, intendent to handle periodic actions.
+- **Two** types of software timers are available
+    1. **Periodic** timers : execute its callback periodically with auto-reload functionality
+    2. **One-Pulse** timers : execute its callback once with an option of **manual** re-trigger
+
+- Software timers could be enabled in CubeMX or FreeRTOSConfig.h 
+- Timer task parameters are set through FreeRTOSConfig.h
+- Scheduler also creates automatically a message queue used to send commands to timer tasks. Also length of this queue length is set in FreeRTOSConfig.h
+- Functions :
+``` C
+/* Software Timer Creation */
+osTimerId osTimerCreate(const osTimerDef_t *timer_def, os_timer_type type, void *argument);
+/* Software Timer Start */
+osStatus osTimerStart(osTimerId timer_id, uint32_t millisec);
+/* Software timer Stop */
+osStatus osTimerStop(osTimerId timer_id);
+``` 
+
+## Advanced Topics
+- Hooks are the callback supported by FreeRTOS, they can help with fault handling. Type of hooks :
+    1. **Idle** Hook
+    2. **Tick** Hook
+    3. **Malloc Failed** Hook
+    4. **Stack overflow** hook
+- CubeMX creates hooks in freertos.c file.
+
+### Idle Task and Idle hook
+- Idle task **automatically** created by scheduler with <code>osKernelStart()</code>
+- It has lowest possible priority
+- It runs only if there are no task in **READY** state.
+- It can share same priority with other tasks
+- Idle hook is called from idle task. It must never attempt to **BLOCK** or **SUSPEND**
+- Idle task is responsible to clean up resources after deletion of other task.
+- Idle hook executed each iteration of idle task once, Dont put loops in it.
+- Idle hook turned on by macro below
+- Idle hook is used for going into **low-power** mode.
+``` C
+#define configIDLE_HOOK 1
+/* Idle hook function prototype */
+void vApplicationIdleHook(void);
+```
+
+### Tick Hook
+- Every time the **SysTick** interrupt is triggered **TickHook** is called. It shouldnt be **blocking** or **suspending** function. Only use interrupt safe functions(FromISR).
+- It is possible to use Tick-Hook for **periodic events** like watchdog refresh
+- Prototype :
+``` C
+void vApplicationTickHook(void);
+```
+### Malloc failed Hook 
+- When malloc failure happens it called. Using this hook will help use to identify problems caused by memory allocation. Should hook should not be **blocking** or **suspending** function.
+- To use it macro below should be defined as below
+``` C
+#define configUSE_MALLOC_FAILED_HOOK 1
+/* Hook function prototype */
+void vApplicationMallocFailedHook(void);
+```
+
+### Stack overflow
+- During task creation, its stack memory filled with **0xA5** data.
+- During run-time we can check how much stack is used by task. High water mark checked. To turn this mechanism macros below should be defined in FreeRTOSConfig.h
+``` C 
+#define configUSE_TRACE_FACILITY 1
+#define INCLUDE_uxTaskGetStackHighWaterMark 1
+/* Dedicated function to check high water mark prototype */
+UBaseType_t uxTaskGetStackHighWaterMark( TaskHandle_t xTask );
+```
+- **Stack overflow Method 1** : This method just checks stack pointer after context switch. If stack pointer is outside of range, stack overflow hook function is called. But this method doesn't guarantee to catch all errors. Macro below is used to enable this method
+``` C
+#define configCHECK_FOR_STACK_OVERFLOW 1
+```
+- **Stack overflow Method 2** : When task is created, its stack filled with known pattern. When context swithcing last 16 bytes are checked to ensure known values has been not overwritten. But this method is less efficent than method 1 but still its fast. It is more likely to catch overflows but still it might miss some. To use this method macro below should be defined as such
+``` C
+#define configCHECK_FOR_STACK_OVERFLOW 2
+```
+- Stack overflow hook function
+``` C
+/* Stack overflow hook function prototype */
+void vApplicationStackOverflowHook(xTaskHandle_t xTask, signed char *pcTaskName);
+```
+- Also we can get information about runtime behaviour. For this <code>osThreadList()</code> is used. Native API version of it is : <code>vTaskList()</code>. To run this function macros below must be defined.
+``` C
+#define configUSE_TRACE_FACILITY 1
+#define configUSE_STATS_FORMATTING_FUNCTIONS 1
+```
+
+## Debug Support
+- CubeIDE has debug support, which supports showing FreeRTOS object information
+- IAR has support for FreeRTOS and OpenRTOS
+
+## Low power Support
+- Kernel can stop tick interrupt and place MCU in low power mode, on the exit tick interrupt updated.
+- The kernel will call a macro <code>portSUPRESS_TICKS_AND_SLEEP()</code> when the idle task is only task able to run.
+- Wake up from sleep can be from a system interrupt/event
+- Lowest power consumption can be achived by low power timers(LPTIM, RTC)
+- Enabled with macro below
+``` C
+#define configUSE_TICKLESS_IDLE 1
+```
+
+- When scheduler started it generates idle task code. It is<code>portTASK_FUNCTION</code> in **task.c**. It is performing following operations
+    1. **Check deleted tasks to clean memory**
+    2. **taskYIELD() if we are not using preemption(configUSE_PREEMPTION 0 must be defined)**
+    3. **Get yield if there is another task waiting and we set (configIDLE_SHOULD_YIELD 1)**
+    4. **Executes vApplicationIdleHook() if(configUSE_IDLE_HOOK 1 defined)**
+    5. **Performing low power entrance if (configUSE_TICKLESS_IDLE != 0)**
+
+### Low power mode entrance
+- Check expected idle time and if its bigger than <code>configEXPECTED_IDLE_TIME_BEFORE_SLEEP</code> then continue
+- Suspend all tasks(Stop scheduler)
+- Check again expected idle time by <code>prvGetExpectedIdleTime()</code>
+- Execute <code>configPRE_SUPPRESS_TICKS_AND_SLEEP_PROCESSING</code> with expected idle time and if biffer than <code>configEXPECTED_IDLE_TIME_BEFORE_SLEEP</code> then continue
+- Execute <code>portSUPPRESS_TICKS_AND_SLEEP()</code> with expected idle time and enter into low power mode.
+
+- Wakeup from low power mode and resume all tasks(Start scheduler)
+
+- <code>portSUPPRESS_TICKS_AND_SLEEP()</code> is empty macro in FreeRTOS.h file. need to be defined by user. This function is called with scheduler suspend.

@@ -1,0 +1,3 @@
+freertos.c:65:13:vApplicationMallocFailedHook	1
+freertos.c:84:6:vApplicationGetIdleTaskMemory	1
+freertos.c:97:6:vApplicationGetTimerTaskMemory	1

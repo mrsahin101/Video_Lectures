@@ -1,21 +1,32 @@
-23:45:32 **** Incremental Build of configuration Debug for project 004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS ****
+17:36:03 **** Incremental Build of configuration Debug for project 007_CMSIS_OS_MALLOC_FAILED_HOOK ****
 make -j4 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.elf
+In file included from ../Core/Src/main.c:21:
+../Core/Src/main.c: In function 'Receiver1':
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:712:3: warning: unsigned conversion from 'long long int' to 'long unsigned int' changes value from '1099511627776' to '0' [-Woverflow]
+  712 | { (no), sizeof(type), NULL }
+      |   ^
+../Core/Src/main.c:274:3: note: in expansion of macro 'osPoolDef'
+  274 |   osPoolDef(Memory,0x10000000000, uint8_t);
+      |   ^~~~~~~~~
+../Core/Src/main.c:273:12: warning: variable 'poolHandle' set but not used [-Wunused-but-set-variable]
+  273 |   osPoolId poolHandle;
+      |            ^~~~~~~~~~
+arm-none-eabi-gcc -o "007_CMSIS_OS_MALLOC_FAILED_HOOK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="007_CMSIS_OS_MALLOC_FAILED_HOOK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 007_CMSIS_OS_MALLOC_FAILED_HOOK.elf
  
-arm-none-eabi-size   004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.elf 
-arm-none-eabi-objdump -h -S  004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.elf  > "004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.list"
+arm-none-eabi-size   007_CMSIS_OS_MALLOC_FAILED_HOOK.elf 
+arm-none-eabi-objdump -h -S  007_CMSIS_OS_MALLOC_FAILED_HOOK.elf  > "007_CMSIS_OS_MALLOC_FAILED_HOOK.list"
    text	   data	    bss	    dec	    hex	filename
-  25468	    132	  18140	  43740	   aadc	004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.elf
+  21072	    124	  19636	  40832	   9f80	007_CMSIS_OS_MALLOC_FAILED_HOOK.elf
 Finished building: default.size.stdout
  
-Finished building: 004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.list
+Finished building: 007_CMSIS_OS_MALLOC_FAILED_HOOK.list
  
-23:45:37 **** Incremental Build of configuration Debug for project 004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS ****
+17:36:09 **** Incremental Build of configuration Debug for project 007_CMSIS_OS_MALLOC_FAILED_HOOK ****
 make -j4 all 
-arm-none-eabi-size   004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.elf 
+arm-none-eabi-size   007_CMSIS_OS_MALLOC_FAILED_HOOK.elf 
    text	   data	    bss	    dec	    hex	filename
-  25468	    132	  18140	  43740	   aadc	004_CMSIS_OS_QUEUE_LAB_TWO_SENDERS.elf
+  21072	    124	  19636	  40832	   9f80	007_CMSIS_OS_MALLOC_FAILED_HOOK.elf
 Finished building: default.size.stdout
  

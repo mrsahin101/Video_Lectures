@@ -1,0 +1,8 @@
+main.c:70:5:main	1
+main.c:142:6:SystemClock_Config	3
+main.c:188:13:MX_USART2_UART_Init	2
+main.c:221:13:MX_GPIO_Init	1
+main.c:257:6:vApplicationMallocFailedHook	1
+main.c:270:6:Receiver1	1
+main.c:292:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:309:6:Error_Handler	1

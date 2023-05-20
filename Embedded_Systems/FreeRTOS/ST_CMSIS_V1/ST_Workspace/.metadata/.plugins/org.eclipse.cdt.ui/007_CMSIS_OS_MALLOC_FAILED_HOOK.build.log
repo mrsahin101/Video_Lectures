@@ -1,0 +1,10 @@
+17:36:09 **** Incremental Build of configuration Debug for project 007_CMSIS_OS_MALLOC_FAILED_HOOK ****
+make -j4 all 
+arm-none-eabi-size   007_CMSIS_OS_MALLOC_FAILED_HOOK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21072	    124	  19636	  40832	   9f80	007_CMSIS_OS_MALLOC_FAILED_HOOK.elf
+Finished building: default.size.stdout
+ 
+
+17:36:10 Build Finished. 0 errors, 0 warnings. (took 437ms)
+

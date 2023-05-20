@@ -1,0 +1,694 @@
+2023-05-20 00:38:31,542 [INFO] MainUpdater:2854 - connection check result : 10
+2023-05-20 00:38:31,718 [INFO] McuFinderGlobals:66 - Set McuFinderConnectedMode to true
+2023-05-20 00:38:31,726 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-05-20 00:38:31,726 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2023-05-20 00:38:33,050 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-05-20 00:38:33,050 [INFO] DetailPanel:341 - Set advertising image to C:/Users/mehmet.sahin/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-05-20 00:39:09,468 [INFO] MainUpdater:2854 - connection check result : 10
+2023-05-20 00:39:09,468 [INFO] MainUpdater:2854 - connection check result : 10
+2023-05-20 00:39:09,484 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-05-20 00:39:09,484 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.81
+2023-05-20 00:39:09,540 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-05-20 00:39:09,540 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-05-20 00:39:09,540 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-05-20 00:39:09,540 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-05-20 00:39:09,556 [WARN] IpParametersView:150 - Warning: This peripheral hasn't parameters
+2023-05-20 00:39:09,556 [WARN] MainPanel:257 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2023-05-20 00:39:09,564 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 343626408 Bytes (796917760)
+2023-05-20 00:39:09,564 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-05-20 00:39:09,564 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.81
+2023-05-20 00:39:09,564 [INFO] OpenFileManager:308 - Change cursor
+2023-05-20 00:39:09,636 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-05-20 00:39:09,636 [INFO] Mcu:1937 - Initializing MCU STM32F407V(E-G)Tx STM32F407VGTx STM32F407VGT6
+2023-05-20 00:39:12,416 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-05-20 00:39:13,058 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-05-20 00:39:13,058 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-05-20 00:39:13,058 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-05-20 00:39:13,058 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-05-20 00:39:13,066 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,079 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 00:39:13,221 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-05-20 00:39:13,863 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-05-20 00:39:13,871 [INFO] RtosManager:919 - Current active RTOS is FREERTOS [Cortex-M4NS]
+2023-05-20 00:39:13,871 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2023-05-20 00:39:14,307 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 571302560 Bytes (796917760)
+2023-05-20 00:39:14,331 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-05-20 00:39:14,331 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.4
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-05-20 00:39:14,331 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-05-20 00:39:14,339 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-05-20 00:39:14,339 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-05-20 00:39:14,339 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-05-20 00:39:14,339 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-05-20 00:39:14,339 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-05-20 00:39:14,754 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-05-20 00:39:14,754 [INFO] PinOutPanel:1499 - setPackage(STM32F407VGTx,LQFP100)
+2023-05-20 00:39:15,308 [INFO] UtilMem:75 - Before build in PCC Used Memory: 475629360 Bytes (796917760)
+2023-05-20 00:39:15,652 [INFO] UtilMem:75 - After build in PCC Used Memory: 519669552 Bytes (796917760)
+2023-05-20 00:39:15,660 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-05-20 00:39:15,692 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,692 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,692 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,692 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,692 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,732 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,732 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,732 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,732 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,732 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,732 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,732 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,732 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,740 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,740 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,740 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 00:39:15,740 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-05-20 00:39:15,756 [WARN] FreeRTOS:1023 - Null or empty value: should not occur! (nothing added to the table)
+2023-05-20 00:39:15,828 [INFO] CADModel:165 - CPN selected for project levelSTM32F407VGT6
+2023-05-20 00:39:15,828 [INFO] CADModel:114 - Register for checkConnection events
+2023-05-20 00:39:15,828 [INFO] RtosManager:697 - Active RTOS found at IOC load: FREERTOS [Cortex-M4NS]
+2023-05-20 00:39:15,876 [INFO] OpenFileManager:328 - Restore cursor
+2023-05-20 00:39:16,363 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 657736192 Bytes (796917760)
+2023-05-20 00:39:16,539 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 331974448 Bytes (796917760)
+2023-05-20 00:39:17,039 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-05-20 00:39:17,039 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-20 00:39:17,039 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-20 00:39:17,039 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-20 00:39:17,039 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-05-20 00:39:17,039 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-20 00:39:17,039 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-05-20 00:39:17,383 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\license.tmp_save
+2023-05-20 00:39:18,346 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\license.tmp
+2023-05-20 00:39:18,546 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\gpio.tmp_save
+2023-05-20 00:39:18,884 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\gpio.tmp
+2023-05-20 00:39:19,012 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-20 00:39:19,028 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp_save
+2023-05-20 00:39:19,340 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp
+2023-05-20 00:39:19,348 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp_save
+2023-05-20 00:39:19,472 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp
+2023-05-20 00:39:19,472 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-20 00:39:19,584 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp
+2023-05-20 00:39:19,592 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-20 00:39:19,728 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-20 00:39:19,736 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-20 00:39:19,840 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-20 00:39:19,848 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-20 00:39:19,928 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp
+2023-05-20 00:39:19,936 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp_save
+2023-05-20 00:39:20,008 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp
+2023-05-20 00:39:20,024 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-20 00:39:20,048 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp_save
+2023-05-20 00:39:20,144 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp
+2023-05-20 00:39:20,152 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp_save
+2023-05-20 00:39:20,240 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp
+2023-05-20 00:39:20,248 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-20 00:39:20,328 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp
+2023-05-20 00:39:20,344 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-20 00:39:20,432 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-20 00:39:20,440 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-20 00:39:20,520 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-20 00:39:20,544 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-20 00:39:20,696 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp
+2023-05-20 00:39:20,728 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp_save
+2023-05-20 00:39:20,824 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp
+2023-05-20 00:39:20,824 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\FreeRTOSConfig.h_save
+2023-05-20 00:39:20,944 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\FreeRTOSConfig.h
+2023-05-20 00:39:20,952 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\freertos.c_save
+2023-05-20 00:39:21,064 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\freertos.c
+2023-05-20 00:39:21,096 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_it.c_save
+2023-05-20 00:39:21,824 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_it.c
+2023-05-20 00:39:21,832 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_it.h_save
+2023-05-20 00:39:21,952 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_it.h
+2023-05-20 00:39:21,968 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-20 00:39:22,120 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_msp.c
+2023-05-20 00:39:22,128 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\system.tmp_save
+2023-05-20 00:39:22,224 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\system.tmp
+2023-05-20 00:39:22,224 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2023-05-20 00:39:22,328 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2023-05-20 00:39:22,352 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-20 00:39:22,480 [INFO] CodeEngine:335 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-20 00:39:22,696 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\main.h_save
+2023-05-20 00:39:23,043 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\main.h
+2023-05-20 00:39:23,051 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\main.c_save
+2023-05-20 00:39:23,341 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\main.c
+2023-05-20 00:39:25,029 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 616mS.
+2023-05-20 00:39:25,045 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-20 00:39:25,692 [INFO] ConfigFileManager:1483 - The Die is : DIE413
+2023-05-20 00:39:25,700 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-05-20 00:39:25,700 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-05-20 00:39:25,716 [INFO] ApiDbMcu:507 - Load IP Config File for LWIP
+2023-05-20 00:39:25,732 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-05-20 00:39:25,756 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-05-20 00:39:25,764 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-05-20 00:39:31,699 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 6654mS.
+2023-05-20 00:39:31,707 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-20 00:39:31,715 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-20 00:39:32,419 [INFO] McuFinderGlobals:66 - Set McuFinderConnectedMode to true
+2023-05-20 00:39:32,427 [INFO] ApiDb:448 - Save user favorites file C:\Users\mehmet.sahin/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-05-20 00:39:32,427 [INFO] ApiDb:452 - User favorites MCUs=[]
+2023-05-20 00:39:47,131 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 319822328 Bytes (810549248)
+2023-05-20 00:39:49,035 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 408424952 Bytes (810549248)
+2023-05-20 00:39:49,483 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-05-20 00:39:49,483 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-20 00:39:49,483 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-20 00:39:49,483 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-20 00:39:49,483 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-05-20 00:39:49,483 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-20 00:39:49,483 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-05-20 00:39:49,760 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\license.tmp_save
+2023-05-20 00:39:49,944 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\license.tmp
+2023-05-20 00:39:49,976 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\gpio.tmp_save
+2023-05-20 00:39:50,224 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\gpio.tmp
+2023-05-20 00:39:50,320 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-20 00:39:50,328 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp_save
+2023-05-20 00:39:50,512 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp
+2023-05-20 00:39:50,520 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp_save
+2023-05-20 00:39:50,600 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp
+2023-05-20 00:39:50,608 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-20 00:39:50,760 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp
+2023-05-20 00:39:50,768 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-20 00:39:50,916 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-20 00:39:50,916 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-20 00:39:51,012 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-20 00:39:51,012 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-20 00:39:51,092 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp
+2023-05-20 00:39:51,092 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp_save
+2023-05-20 00:39:51,180 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp
+2023-05-20 00:39:51,196 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-20 00:39:51,212 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp_save
+2023-05-20 00:39:51,372 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp
+2023-05-20 00:39:51,380 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp_save
+2023-05-20 00:39:51,524 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp
+2023-05-20 00:39:51,540 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-20 00:39:51,668 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp
+2023-05-20 00:39:51,684 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-20 00:39:51,772 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-20 00:39:51,780 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-20 00:39:51,852 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-20 00:39:51,860 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-20 00:39:51,940 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp
+2023-05-20 00:39:51,948 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp_save
+2023-05-20 00:39:52,012 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp
+2023-05-20 00:39:52,036 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\FreeRTOSConfig.h_save
+2023-05-20 00:39:52,132 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\FreeRTOSConfig.h
+2023-05-20 00:39:52,148 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\freertos.c_save
+2023-05-20 00:39:52,236 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\freertos.c
+2023-05-20 00:39:52,268 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_it.c_save
+2023-05-20 00:39:52,380 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_it.c
+2023-05-20 00:39:52,388 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_it.h_save
+2023-05-20 00:39:52,460 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_it.h
+2023-05-20 00:39:52,500 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-20 00:39:52,620 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_msp.c
+2023-05-20 00:39:52,628 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\system.tmp_save
+2023-05-20 00:39:52,716 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\system.tmp
+2023-05-20 00:39:52,740 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2023-05-20 00:39:52,828 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2023-05-20 00:39:52,868 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-20 00:39:53,069 [INFO] CodeEngine:335 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-20 00:39:53,301 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\main.h_save
+2023-05-20 00:39:53,450 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\main.h
+2023-05-20 00:39:53,474 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\main.c_save
+2023-05-20 00:39:53,682 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\main.c
+2023-05-20 00:39:54,818 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 376mS.
+2023-05-20 00:39:54,826 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-20 00:39:55,362 [INFO] ConfigFileManager:1483 - The Die is : DIE413
+2023-05-20 00:39:58,256 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3430mS.
+2023-05-20 00:39:58,256 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-20 00:39:58,264 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-20 00:40:07,738 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-05-20 00:40:41,213 [INFO] TasksAndQueuesTab:757 - Dynamic
+2023-05-20 00:40:41,213 [WARN] TasksAndQueuesTab:763 - 128 128
+2023-05-20 00:40:41,213 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2023-05-20 00:41:03,292 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 366845520 Bytes (827326464)
+2023-05-20 00:41:04,810 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 408262224 Bytes (827326464)
+2023-05-20 00:41:05,213 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-05-20 00:41:05,213 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-20 00:41:05,213 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-20 00:41:05,213 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-20 00:41:05,213 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-05-20 00:41:05,213 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-20 00:41:05,213 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-05-20 00:41:05,478 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\license.tmp_save
+2023-05-20 00:41:05,953 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\license.tmp
+2023-05-20 00:41:06,003 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\gpio.tmp_save
+2023-05-20 00:41:06,238 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\gpio.tmp
+2023-05-20 00:41:06,371 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-20 00:41:06,508 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp_save
+2023-05-20 00:41:06,643 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp
+2023-05-20 00:41:06,653 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp_save
+2023-05-20 00:41:06,753 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp
+2023-05-20 00:41:06,763 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-20 00:41:06,862 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp
+2023-05-20 00:41:06,873 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-20 00:41:06,993 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-20 00:41:07,008 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-20 00:41:07,210 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-20 00:41:07,228 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-20 00:41:07,393 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp
+2023-05-20 00:41:07,408 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp_save
+2023-05-20 00:41:07,563 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp
+2023-05-20 00:41:07,583 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-20 00:41:07,648 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp_save
+2023-05-20 00:41:07,833 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_inc.tmp
+2023-05-20 00:41:07,853 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp_save
+2023-05-20 00:41:07,958 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_vars.tmp
+2023-05-20 00:41:07,978 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-20 00:41:08,108 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_pfp.tmp
+2023-05-20 00:41:08,133 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-20 00:41:08,293 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-20 00:41:08,308 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-20 00:41:08,433 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-20 00:41:08,470 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-20 00:41:08,613 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_default_thread.tmp
+2023-05-20 00:41:08,628 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp_save
+2023-05-20 00:41:08,770 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\rtos_threads.tmp
+2023-05-20 00:41:08,803 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\FreeRTOSConfig.h_save
+2023-05-20 00:41:09,163 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\FreeRTOSConfig.h
+2023-05-20 00:41:09,198 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\freertos.c_save
+2023-05-20 00:41:09,468 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\freertos.c
+2023-05-20 00:41:09,558 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_it.c_save
+2023-05-20 00:41:09,873 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_it.c
+2023-05-20 00:41:09,886 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_it.h_save
+2023-05-20 00:41:10,158 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_it.h
+2023-05-20 00:41:10,253 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-20 00:41:10,726 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_msp.c
+2023-05-20 00:41:10,734 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\system.tmp_save
+2023-05-20 00:41:10,888 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\MXTmpFiles\system.tmp
+2023-05-20 00:41:10,916 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2023-05-20 00:41:11,048 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2023-05-20 00:41:11,103 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-20 00:41:11,317 [INFO] CodeEngine:335 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-20 00:41:11,398 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\main.h_save
+2023-05-20 00:41:11,588 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Inc\main.h
+2023-05-20 00:41:11,603 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\main.c_save
+2023-05-20 00:41:11,888 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\006_CMSIS_OS_SOFTWARE_TIMERS\Core\Src\main.c
+2023-05-20 00:41:14,359 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 966mS.
+2023-05-20 00:41:14,369 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-20 00:41:15,601 [INFO] ConfigFileManager:1483 - The Die is : DIE413
+2023-05-20 00:41:19,775 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 5406mS.
+2023-05-20 00:41:19,778 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 3mS.
+2023-05-20 00:41:19,788 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-20 17:28:58,552 [INFO] MainUpdater:2854 - connection check result : 10
+2023-05-20 17:28:58,702 [INFO] McuFinderGlobals:66 - Set McuFinderConnectedMode to true
+2023-05-20 17:28:58,704 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-05-20 17:28:58,705 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2023-05-20 17:28:59,885 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-05-20 17:28:59,886 [INFO] DetailPanel:341 - Set advertising image to C:/Users/mehmet.sahin/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-05-20 17:29:36,252 [INFO] MainUpdater:2854 - connection check result : 10
+2023-05-20 17:29:36,252 [INFO] MainUpdater:2854 - connection check result : 10
+2023-05-20 17:29:36,279 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-05-20 17:29:36,279 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.81
+2023-05-20 17:29:36,361 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-05-20 17:29:36,361 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-05-20 17:29:36,361 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-05-20 17:29:36,363 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-05-20 17:29:36,374 [WARN] IpParametersView:150 - Warning: This peripheral hasn't parameters
+2023-05-20 17:29:36,379 [WARN] MainPanel:257 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2023-05-20 17:29:36,383 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 452344160 Bytes (814743552)
+2023-05-20 17:29:36,384 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-05-20 17:29:36,384 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.81
+2023-05-20 17:29:36,385 [INFO] OpenFileManager:308 - Change cursor
+2023-05-20 17:29:36,428 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-05-20 17:29:36,447 [INFO] Mcu:1937 - Initializing MCU STM32F407V(E-G)Tx STM32F407VGTx STM32F407VGT6
+2023-05-20 17:29:39,914 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-05-20 17:29:40,406 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-05-20 17:29:40,406 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-05-20 17:29:40,406 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-05-20 17:29:40,406 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-05-20 17:29:40,406 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,417 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,418 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,418 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,418 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,418 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,418 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,418 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,418 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,418 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,418 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,418 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,419 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,420 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,420 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,420 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,420 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,420 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,420 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,420 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,420 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,420 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-20 17:29:40,558 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-05-20 17:29:41,187 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-05-20 17:29:41,196 [INFO] RtosManager:919 - Current active RTOS is FREERTOS [Cortex-M4NS]
+2023-05-20 17:29:41,202 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2023-05-20 17:29:41,575 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 594403256 Bytes (814743552)
+2023-05-20 17:29:41,599 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-05-20 17:29:41,600 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-05-20 17:29:41,600 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-05-20 17:29:41,600 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-05-20 17:29:41,600 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-05-20 17:29:41,600 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-05-20 17:29:41,600 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-05-20 17:29:41,601 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-05-20 17:29:41,601 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.0
+2023-05-20 17:29:41,601 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-05-20 17:29:41,601 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-05-20 17:29:41,601 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-05-20 17:29:41,601 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-05-20 17:29:41,601 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-05-20 17:29:41,601 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.4
+2023-05-20 17:29:41,602 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-05-20 17:29:41,602 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-05-20 17:29:41,602 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-05-20 17:29:41,602 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-05-20 17:29:41,602 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-05-20 17:29:41,602 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-05-20 17:29:41,602 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-05-20 17:29:41,603 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-05-20 17:29:41,603 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-05-20 17:29:41,603 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-05-20 17:29:41,603 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-05-20 17:29:41,603 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2023-05-20 17:29:41,603 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-05-20 17:29:41,604 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-05-20 17:29:41,605 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-05-20 17:29:41,606 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-05-20 17:29:41,939 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-05-20 17:29:41,940 [INFO] PinOutPanel:1499 - setPackage(STM32F407VGTx,LQFP100)
+2023-05-20 17:29:42,296 [INFO] UtilMem:75 - Before build in PCC Used Memory: 525264256 Bytes (814743552)
+2023-05-20 17:29:42,665 [INFO] UtilMem:75 - After build in PCC Used Memory: 567729536 Bytes (814743552)
+2023-05-20 17:29:42,694 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-05-20 17:29:42,744 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,744 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,745 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,745 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,745 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,745 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,745 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,745 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,745 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,746 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,746 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,746 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,746 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,746 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,746 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,747 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,747 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,747 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,747 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,747 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,748 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,748 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,748 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,749 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,749 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,749 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,750 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,750 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,751 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,751 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,751 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,752 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,752 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,752 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,753 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,753 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,753 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,754 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,754 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,755 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,755 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,755 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,756 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,757 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,757 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,758 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,758 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,759 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,759 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,760 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,760 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,761 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,761 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,762 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,763 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,764 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,765 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,765 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-20 17:29:42,823 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-05-20 17:29:42,835 [WARN] FreeRTOS:1023 - Null or empty value: should not occur! (nothing added to the table)
+2023-05-20 17:29:42,914 [INFO] CADModel:165 - CPN selected for project levelSTM32F407VGT6
+2023-05-20 17:29:42,914 [INFO] CADModel:114 - Register for checkConnection events
+2023-05-20 17:29:42,917 [INFO] RtosManager:697 - Active RTOS found at IOC load: FREERTOS [Cortex-M4NS]
+2023-05-20 17:29:42,974 [INFO] OpenFileManager:328 - Restore cursor
+2023-05-20 17:29:43,399 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 364526488 Bytes (814743552)
+2023-05-20 17:29:43,515 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 387068824 Bytes (814743552)
+2023-05-20 17:29:43,880 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-05-20 17:29:43,880 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-20 17:29:43,880 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-20 17:29:43,880 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-20 17:29:43,880 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-05-20 17:29:43,881 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-20 17:29:43,882 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-05-20 17:29:44,264 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\license.tmp_save
+2023-05-20 17:29:44,584 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\license.tmp
+2023-05-20 17:29:44,747 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\gpio.tmp_save
+2023-05-20 17:29:45,071 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\gpio.tmp
+2023-05-20 17:29:45,254 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-20 17:29:45,277 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_inc.tmp_save
+2023-05-20 17:29:45,462 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_inc.tmp
+2023-05-20 17:29:45,479 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_vars.tmp_save
+2023-05-20 17:29:45,576 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_vars.tmp
+2023-05-20 17:29:45,592 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-20 17:29:45,712 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_pfp.tmp
+2023-05-20 17:29:45,731 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-20 17:29:45,838 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-20 17:29:45,853 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-20 17:29:45,934 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-20 17:29:45,957 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-20 17:29:46,042 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_default_thread.tmp
+2023-05-20 17:29:46,055 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_threads.tmp_save
+2023-05-20 17:29:46,156 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_threads.tmp
+2023-05-20 17:29:46,166 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-20 17:29:46,176 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_inc.tmp_save
+2023-05-20 17:29:46,276 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_inc.tmp
+2023-05-20 17:29:46,285 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_vars.tmp_save
+2023-05-20 17:29:46,373 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_vars.tmp
+2023-05-20 17:29:46,381 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-20 17:29:46,469 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_pfp.tmp
+2023-05-20 17:29:46,486 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-20 17:29:46,579 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-20 17:29:46,587 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-20 17:29:46,666 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-20 17:29:46,674 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-20 17:29:46,755 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_default_thread.tmp
+2023-05-20 17:29:46,769 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_threads.tmp_save
+2023-05-20 17:29:46,851 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\rtos_threads.tmp
+2023-05-20 17:29:46,870 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Inc\FreeRTOSConfig.h_save
+2023-05-20 17:29:47,016 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Inc\FreeRTOSConfig.h
+2023-05-20 17:29:47,031 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Src\freertos.c_save
+2023-05-20 17:29:47,143 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Src\freertos.c
+2023-05-20 17:29:47,171 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Src\stm32f4xx_it.c_save
+2023-05-20 17:29:47,666 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Src\stm32f4xx_it.c
+2023-05-20 17:29:47,697 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Inc\stm32f4xx_it.h_save
+2023-05-20 17:29:47,921 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Inc\stm32f4xx_it.h
+2023-05-20 17:29:47,951 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-20 17:29:48,154 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Src\stm32f4xx_hal_msp.c
+2023-05-20 17:29:48,168 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\system.tmp_save
+2023-05-20 17:29:48,424 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\MXTmpFiles\system.tmp
+2023-05-20 17:29:48,446 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2023-05-20 17:29:48,658 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Src\stm32f4xx_hal_timebase_tim.c
+2023-05-20 17:29:48,684 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-20 17:29:48,975 [INFO] CodeEngine:335 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-20 17:29:49,064 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Inc\main.h_save
+2023-05-20 17:29:49,196 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Inc\main.h
+2023-05-20 17:29:49,213 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Src\main.c_save
+2023-05-20 17:29:49,372 [INFO] CodeEngine:279 - Generated code: C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V1\ST_Workspace\007_CMSIS_OS_MALLOC_FAILED_HOOK\Core\Src\main.c
+2023-05-20 17:29:50,395 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 437mS.
+2023-05-20 17:29:50,404 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-20 17:29:50,760 [INFO] ConfigFileManager:1483 - The Die is : DIE413
+2023-05-20 17:29:50,778 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-05-20 17:29:50,795 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-05-20 17:29:50,821 [INFO] ApiDbMcu:507 - Load IP Config File for LWIP
+2023-05-20 17:29:50,839 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-05-20 17:29:50,859 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-05-20 17:29:50,876 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-05-20 17:29:56,860 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 6456mS.
+2023-05-20 17:29:56,861 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-20 17:29:56,869 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-20 17:29:57,378 [INFO] McuFinderGlobals:66 - Set McuFinderConnectedMode to true
+2023-05-20 17:29:57,381 [INFO] ApiDb:448 - Save user favorites file C:\Users\mehmet.sahin/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-05-20 17:29:57,381 [INFO] ApiDb:452 - User favorites MCUs=[]
