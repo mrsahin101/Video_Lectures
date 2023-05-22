@@ -1,49 +1,18 @@
-00:32:09 **** Incremental Build of configuration Debug for project 001_FREERTOS_CMSIS_V2_LAB_PREPARATION ****
+20:56:22 **** Incremental Build of configuration Debug for project 008_FREERTOS_CMSIS_QUEUE_SendReceive ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V2\ST_Workspace\001_FREERTOS_CMSIS_V2_LAB_PREPARATION\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_FREERTOS_CMSIS_V2_LAB_PREPARATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StartReceiver':
+../Core/Src/main.c:331:14: warning: variable 'r_state' set but not used [-Wunused-but-set-variable]
+  331 |   osStatus_t r_state;
+      |              ^~~~~~~
+arm-none-eabi-gcc -o "008_FREERTOS_CMSIS_QUEUE_SendReceive.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V2\ST_Workspace\008_FREERTOS_CMSIS_QUEUE_SendReceive\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="008_FREERTOS_CMSIS_QUEUE_SendReceive.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 008_FREERTOS_CMSIS_QUEUE_SendReceive.elf
  
-arm-none-eabi-size   001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf 
-arm-none-eabi-objdump -h -S  001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf  > "001_FREERTOS_CMSIS_V2_LAB_PREPARATION.list"
+arm-none-eabi-size   008_FREERTOS_CMSIS_QUEUE_SendReceive.elf 
+arm-none-eabi-objdump -h -S  008_FREERTOS_CMSIS_QUEUE_SendReceive.elf  > "008_FREERTOS_CMSIS_QUEUE_SendReceive.list"
    text	   data	    bss	    dec	    hex	filename
-  23320	     24	  20480	  43824	   ab30	001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf
+  25068	    124	  20692	  45884	   b33c	008_FREERTOS_CMSIS_QUEUE_SendReceive.elf
 Finished building: default.size.stdout
  
-Finished building: 001_FREERTOS_CMSIS_V2_LAB_PREPARATION.list
- 
-00:32:13 **** Incremental Build of configuration Debug for project 001_FREERTOS_CMSIS_V2_LAB_PREPARATION ****
-make -j4 all 
-arm-none-eabi-size   001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf 
-   text	   data	    bss	    dec	    hex	filename
-  23320	     24	  20480	  43824	   ab30	001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf
-Finished building: default.size.stdout
- 
-00:42:20 **** Incremental Build of configuration Debug for project 001_FREERTOS_CMSIS_V2_LAB_PREPARATION ****
-make -j4 all 
-arm-none-eabi-size   001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf 
-   text	   data	    bss	    dec	    hex	filename
-  23320	     24	  20480	  43824	   ab30	001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf
-Finished building: default.size.stdout
- 
-00:51:02 **** Incremental Build of configuration Debug for project 001_FREERTOS_CMSIS_V2_LAB_PREPARATION ****
-make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\mehmet.sahin\Desktop\Video_Lectures\Embedded_Systems\FreeRTOS\ST_CMSIS_V2\ST_Workspace\001_FREERTOS_CMSIS_V2_LAB_PREPARATION\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_FREERTOS_CMSIS_V2_LAB_PREPARATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf
- 
-arm-none-eabi-size   001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf 
-arm-none-eabi-objdump -h -S  001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf  > "001_FREERTOS_CMSIS_V2_LAB_PREPARATION.list"
-   text	   data	    bss	    dec	    hex	filename
-  23352	     24	  20480	  43856	   ab50	001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf
-Finished building: default.size.stdout
- 
-Finished building: 001_FREERTOS_CMSIS_V2_LAB_PREPARATION.list
- 
-00:51:35 **** Incremental Build of configuration Debug for project 001_FREERTOS_CMSIS_V2_LAB_PREPARATION ****
-make -j4 all 
-arm-none-eabi-size   001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf 
-   text	   data	    bss	    dec	    hex	filename
-  23352	     24	  20480	  43856	   ab50	001_FREERTOS_CMSIS_V2_LAB_PREPARATION.elf
-Finished building: default.size.stdout
+Finished building: 008_FREERTOS_CMSIS_QUEUE_SendReceive.list
  

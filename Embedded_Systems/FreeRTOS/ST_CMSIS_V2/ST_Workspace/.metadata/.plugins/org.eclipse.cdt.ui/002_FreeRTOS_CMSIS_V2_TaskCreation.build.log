@@ -1,0 +1,10 @@
+15:05:46 **** Incremental Build of configuration Debug for project 002_FreeRTOS_CMSIS_V2_TaskCreation ****
+make -j4 all 
+arm-none-eabi-size   002_FreeRTOS_CMSIS_V2_TaskCreation.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18896	     24	  20416	  39336	   99a8	002_FreeRTOS_CMSIS_V2_TaskCreation.elf
+Finished building: default.size.stdout
+ 
+
+15:05:46 Build Finished. 0 errors, 0 warnings. (took 472ms)
+

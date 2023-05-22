@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;003_FREERTOS_CMSIS_OsDelay&apos;" deleteContents="true" description="Delete resource &apos;003_FREERTOS_CMSIS_OsDelay&apos;" element1="/003_FREERTOS_CMSIS_OsDelay" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1684759045767"/>
+</session>

@@ -1,0 +1,10 @@
+16:00:14 **** Incremental Build of configuration Debug for project 003_FREERTOS_CMSIS_osDelay ****
+make -j4 all 
+arm-none-eabi-size   003_FREERTOS_CMSIS_osDelay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24040	    124	  20684	  44848	   af30	003_FREERTOS_CMSIS_osDelay.elf
+Finished building: default.size.stdout
+ 
+
+16:00:14 Build Finished. 0 errors, 0 warnings. (took 384ms)
+
