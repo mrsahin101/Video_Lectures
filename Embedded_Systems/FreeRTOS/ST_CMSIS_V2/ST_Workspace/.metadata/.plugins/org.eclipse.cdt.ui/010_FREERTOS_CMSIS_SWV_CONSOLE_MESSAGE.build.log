@@ -1,0 +1,10 @@
+11:08:22 **** Incremental Build of configuration Debug for project 010_FREERTOS_CMSIS_SWV_CONSOLE_MESSAGE ****
+make -j4 all 
+arm-none-eabi-size   010_FREERTOS_CMSIS_SWV_CONSOLE_MESSAGE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18604	    124	  20612	  39340	   99ac	010_FREERTOS_CMSIS_SWV_CONSOLE_MESSAGE.elf
+Finished building: default.size.stdout
+ 
+
+11:08:23 Build Finished. 0 errors, 0 warnings. (took 463ms)
+

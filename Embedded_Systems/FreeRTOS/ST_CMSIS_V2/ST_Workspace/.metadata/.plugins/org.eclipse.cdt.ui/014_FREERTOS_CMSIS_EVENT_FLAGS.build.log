@@ -1,0 +1,10 @@
+14:17:14 **** Incremental Build of configuration Debug for project 014_FREERTOS_CMSIS_EVENT_FLAGS ****
+make -j4 all 
+arm-none-eabi-size   014_FREERTOS_CMSIS_EVENT_FLAGS.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26004	    124	  20692	  46820	   b6e4	014_FREERTOS_CMSIS_EVENT_FLAGS.elf
+Finished building: default.size.stdout
+ 
+
+14:17:15 Build Finished. 0 errors, 0 warnings. (took 429ms)
+

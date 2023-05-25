@@ -1,0 +1,10 @@
+15:41:55 **** Incremental Build of configuration Debug for project 015_FREERTOS_CMSIS_Thread_FLAGS_2_Task ****
+make -j4 all 
+arm-none-eabi-size   015_FREERTOS_CMSIS_Thread_FLAGS_2_Task.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25432	    124	  20684	  46240	   b4a0	015_FREERTOS_CMSIS_Thread_FLAGS_2_Task.elf
+Finished building: default.size.stdout
+ 
+
+15:41:55 Build Finished. 0 errors, 0 warnings. (took 437ms)
+

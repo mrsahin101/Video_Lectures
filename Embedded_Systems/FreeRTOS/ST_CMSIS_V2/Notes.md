@@ -1,6 +1,7 @@
 # **FreeRTOS CMSIS_V2 API**
 
 ## **Introduction**
+- [Serial Wire Viewer](https://www.codeinsideout.com/blog/stm32/swv/#swv-windows)
 - This Lecture series are based on CMSIS_V2
 - To enable SW, do the following
     1. define Task_action as below

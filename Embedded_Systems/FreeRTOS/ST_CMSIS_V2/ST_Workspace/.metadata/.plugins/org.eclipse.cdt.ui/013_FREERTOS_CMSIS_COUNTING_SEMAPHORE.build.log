@@ -1,0 +1,10 @@
+13:27:44 **** Incremental Build of configuration Debug for project 013_FREERTOS_CMSIS_COUNTING_SEMAPHORE ****
+make -j4 all 
+arm-none-eabi-size   013_FREERTOS_CMSIS_COUNTING_SEMAPHORE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26852	    124	  20692	  47668	   ba34	013_FREERTOS_CMSIS_COUNTING_SEMAPHORE.elf
+Finished building: default.size.stdout
+ 
+
+13:27:44 Build Finished. 0 errors, 0 warnings. (took 465ms)
+
