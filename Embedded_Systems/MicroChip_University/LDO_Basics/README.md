@@ -1,0 +1,2 @@
+- This course is part of MicroChip University lectures. 
+- Lecture Videos : https://mu.microchip.com/low-dropout-regulator-basics-ldo/1505755

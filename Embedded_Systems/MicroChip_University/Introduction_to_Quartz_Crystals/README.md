@@ -1,0 +1,2 @@
+- This course is part of MicroChip University lectures. 
+- Lecture Videos : https://mu.microchip.com/introduction-to-quartz-crystals-mu/1400755
