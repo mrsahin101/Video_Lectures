@@ -190,3 +190,15 @@
 - SRAMs are connected to core via High-Speed Bus Matrix
 - Cortex-M0+, Cortex-M23, Cortex-M4 doesnt have TCM support. Cortex-M7 supports TCM.
 - TCM runs at processor speed
+- TCM is always fasest compare to Cache
+
+## TRUST-ZONE
+
+### Introduction
+- Trust-Zone added in ARMv8-M basic
+- Introducing secure and non-secure worlds to architecture
+- Trust-zone protects data, indirectly protects communications, enables physical security
+- Trust-zone has Secure world and Non-Secure world.
+- Worlds defined by memory address
+- Trust-Zone protects data and firmware while increasing the software reliability of the system
+- Trust-Zone allows for  software to instract securely with zero trust or assumptions between worlds
