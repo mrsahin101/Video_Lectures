@@ -1,0 +1,2 @@
+- This is about digikey youtube Embedded linux video series. It has 7 parts. 
+- Playlist link : https://www.youtube.com/playlist?list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB

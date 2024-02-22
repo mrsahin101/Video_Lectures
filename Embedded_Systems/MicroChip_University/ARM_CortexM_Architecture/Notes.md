@@ -190,7 +190,7 @@
 - SRAMs are connected to core via High-Speed Bus Matrix
 - Cortex-M0+, Cortex-M23, Cortex-M4 doesnt have TCM support. Cortex-M7 supports TCM.
 - TCM runs at processor speed
-- TCM is always fasest compare to Cache
+- TCM is always fastest compare to Cache
 
 ## TRUST-ZONE
 
