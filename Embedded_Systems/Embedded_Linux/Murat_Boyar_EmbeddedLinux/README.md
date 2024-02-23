@@ -1,0 +1,2 @@
+- Video Link : https://www.youtube.com/watch?v=SzJz3AlOY_k
+- Bu videoda Murat boyar ve Coskun tasdemir embedded linux uzerine konusuyorlar.
