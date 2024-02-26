@@ -1,0 +1,2 @@
+- Bu videoda Sadi Evren Sekerin Bilgisayar kavramlari youtube kanalindaki Linux giriş egitimi video serisini icerir.
+- Link : https://www.youtube.com/watch?v=_Kc9ImFpqro&list=PLh9ECzBB8tJOnxXrUTOqXfurKOZkN4mEY&index=1
