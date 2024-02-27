@@ -12,3 +12,18 @@
 - Changing file extension doesnt change file content on linux. But it is common sense to inform user with certain extensions.
 - There is no trashbin on terminal.
 46 min. will continue later
+- **locate** : Tells about application and its files. It gives complete path.It may not locate recently created files.
+- **which** : Find executable of given name file.
+- **grep -v "printf" main.c > myoutput.txt** : Find printf's in main and direct it into myoutput.txt(write into it)
+- **stdin** : Standart input, **stdout** : Standart output, **stderr** : Standart error
+- When redirecting output, stdout writes to file, stderr still prints on terminal.
+- When **&>** redirects stderr and stdout into file.
+- To append use **>>** instead of **>**.
+- **|** : Pipes are great for using 2 command together.
+- Paused process are can be seen by **jobs** command.
+- **fg** will bring process to runing again.
+- **bg** will work process in background.
+- **ps** : Shows process running in terminal.
+- **kill 5575** : kill process with 5575 id
+- To run process in background <code>yes > out.txt &</code>
+- **kill -9 5618** : Force to kill process with id 5618.
