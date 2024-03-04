@@ -1,0 +1,3 @@
+- This is introductry course to linux by FreeCodeCamp.
+- Youtube link : https://www.youtube.com/watch?v=sWbUDq4S6Y8&ab_channel=freeCodeCamp.org
+- This course taught by Beau Carnes
