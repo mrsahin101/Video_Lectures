@@ -17,7 +17,7 @@
 
 ![ls details](./Images/ls_details.PNG)
 
-- <code>cat > file.txt</cat> : Creates file.txt and lets you write in it. Press Control + D to save content.
+- <code>cat > file.txt</code> : Creates file.txt and lets you write in it. Press Control + D to save content.
 - <code>cat > file1.txt file2.txt > newfile.txt</code> : Combines file1.txt and file2.txt into newfile.txtk
 - Use <code>Control + Shift + V</code> to copy in terminal
 
@@ -32,6 +32,8 @@
     3. **Execute**
 
 ![file permissions](./Images/FilePerm.PNG)
+
+
 - <code>chmod</code> : Change file permissions
 - <code>chown</code> : Changing ownership of file
 
@@ -43,7 +45,7 @@
 - **apt-get** : used to install packages.
 
 ## Redirection in Linux
-- In Unix/Linux world everything is file. Every file has a number called file descriptor. File Descriptor FD0 -> Stdin, FD1 -> Stdout, Stderr -> Fd2
+- In Unix/Linux world everything is file. Every file has a number called file descriptor. File Descriptor FD0 -> Stdin, FD1 -> Stdout, Stderr -> FD2
 - **>** : Used for output(stdout) redirection.
 - **>>** : This used for  appending. Instead of overwrite.
 - **<** : It is used for input(stdin) redirection.
@@ -109,7 +111,7 @@
 - It is user friendly.
 
 - Vi can be in two mode
-    1. **Command Mode** : Move the cursor and cut, copy, paste the text. Save the changes to the fie. Commands are case sensitive
+    1. **Command Mode** : Move the cursor and cut, copy, paste the text. Save the changes to the file. Commands are case sensitive
     2. **Insert Mode** : This mode is for inserting text to file. Press <code>i</code> on the keyboaard to enter insert mode. Presse Esc key to save changes and return to return command mode.
 - <code>vi filename</code> : Open filename with vi.
 

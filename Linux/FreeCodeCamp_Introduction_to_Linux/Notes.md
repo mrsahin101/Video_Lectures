@@ -2,7 +2,7 @@
 
 ## Introduction to Linux Families
 - There are mainly 3 different distrobution families
-    1. **Red Hat** family (RHEL) : CentoS, Fedore, Oracle Linux
+    1. **Red Hat** family (RHEL) : CentoS, Fedora, Oracle Linux
     2. **OpenSuse** family
     3. **Debian** family
 
@@ -11,7 +11,7 @@
 ### Red-Hat Distrubition Families
 - Fedore used as testing platform for future Red-HAT releases.
 - CentOS is close clone of RHEL
-- Suuports Intel x86, ARM, Itanium, PowerPC
+- Supports Intel x86, ARM, Itanium, PowerPC
 - yum package manager.
 - Widely used by enterprise.
 
@@ -41,7 +41,7 @@
 - Linux is a multitasking OS
 
 ## Linux Basics and System Start-up
-- Boot Process : Power ON -> BIOS -> Master Boot Record also known as First Sector of the Hard-Disk -> Boot-Loader(GRUB) -> Kernel(Linux OS) -> Initial RamDisk(initramfs image) -> /sbin/init(parent process) -> Comand Shell using getty -> X Windows System(GUI) 
+- Boot Process : Power ON -> BIOS -> Master Boot Record also known as First Sector of the Hard-Disk -> Boot-Loader(GRUB) -> Kernel(Linux OS) -> Initial RamDisk(initramfs image) -> /sbin/init(parent process) -> Command Shell using getty -> X Windows System(GUI) 
 
 - **BIOS** : Initialize screen and keyboard, Also know power-on-self-test
 - **MBR** : Bootloader loaded from harddisk.
@@ -134,7 +134,7 @@
 - Additional software is used via **package manager software**
 - Both rpm and dkpg runs on two-level.
     1. **Low level tool** : dpkg or rpm, take care all low level stuff. install packages, run scripts, make sure software installed correctly
-    2. **High level tool** : apt, yum or zypper dnf, dowload packages, figures out dependencies. User works in this level.
+    2. **High level tool** : apt, yum or zypper dnf, download packages, figures out dependencies. User works in this level.
     
 - dnf is backward-compatiable with yum for RHEL
 - zypper is for openSuse family.
@@ -152,7 +152,7 @@
 ![Process Type](./Images/PID_Types.PNG)
 - To terminate process <code>kill -9 pid</code> kills the process or <code>kill -SIGKILL pid</code>
 - The operating system identifies who started the process by RUID(Real user id)
-- RGID -> Identifies the group that started tthe process, 
+- RGID -> Identifies the group that started the process, 
 - EUID -> Determines the access rights of the user
 - EGID -> Determines the access rights of the group
 
@@ -164,7 +164,7 @@
 - For single core system calling <code>w</code> means first load average value is cpu is utilize for last minute percentage. second value is last 5 minute and other value is for last %15 minute
 - foreground jobs are run in foreground.
 - background jobs frees the shell and run in background.
-- Ctrl k suspend running foreground job.
+- Ctrl + k suspend running foreground job.
 - <code>jobs</code> : Shows jobs running in background.
 - <code>top</code> : Show currently running processes. When inside <code>top</code> pressing h shows all help info.
 - <code>at</code> : Used to schedule task at specified time

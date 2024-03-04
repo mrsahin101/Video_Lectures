@@ -12,7 +12,7 @@
 
 - Distrolarin sunucu versiyonu cok daha minimaldir.
 - Root : Kok demektir. Herseyin en ozu en temeli demektir. Admin yetkisi vardir.
-- Linux dunyasinda buyuk kucuk hard sensitivedir.
+- Linux dunyasinda buyuk kucuk harf sensitivedir.
 - Linux uzun sure(uptime) calisabilir. Windowsa kiyasla.
 - Super bilgisayarlar icin ozel isletim sistemleri yaziliyor.
 - OpenSource projelere katki saglamak iyi bir is olabilir.

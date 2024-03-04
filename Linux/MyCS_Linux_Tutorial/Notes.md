@@ -10,19 +10,18 @@
 - **wc** : Show number of words in given file.
 - **less file.txt** : Shows content of file page by page.
 - Changing file extension doesnt change file content on linux. But it is common sense to inform user with certain extensions.
-- There is no trashbin on terminal.
-46 min. will continue later
+- There is no trashbin on terminal. If file deleted, its gone! So be carefull.
 - **locate** : Tells about application and its files. It gives complete path.It may not locate recently created files.
 - **which** : Find executable of given name file.
 - **grep -v "printf" main.c > myoutput.txt** : Find printf's in main and direct it into myoutput.txt(write into it)
 - **stdin** : Standart input, **stdout** : Standart output, **stderr** : Standart error
 - When redirecting output, stdout writes to file, stderr still prints on terminal.
-- When **&>** redirects stderr and stdout into file.
-- To append use **>>** instead of **>**.
+- When using **&>** redirects stderr and stdout into file.
+- To append to file use **>>** instead of **>**.
 - **|** : Pipes are great for using 2 command together.
 - Paused process are can be seen by **jobs** command.
-- **fg** will bring process to runing again.
-- **bg** will work process in background.
+- **fg** will bring process to runing again. It's abbrivetion for foreground
+- **bg** will work process in background. Its abbrivetion for background 
 - **ps** : Shows process running in terminal.
 - **kill 5575** : kill process with 5575 id
 - To run process in background <code>yes > out.txt &</code>
