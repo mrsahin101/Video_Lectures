@@ -20,7 +20,7 @@
     4. Some computers have little or no UI.
     5. Handheld computers are resource poor, but optimized for usabilty and battery life.
     6. OS is resources allocator(Manages all resources)
-    7. OS is control programs(Controls executing of programs)
+    7. OS control programs(Controls executing of programs)
     8. Prevents errors and improper use of the computer
     9. No universally accepted definition
     10. The one program running at all times on the computer is the **kernel**. Everything else is either a system program or an application program.
@@ -64,7 +64,7 @@
 
 - Direct Memory Access Structure
     1. Used for high-speed I/O devices able to transmit information at **close to memory speeds**
-    2. Device controlelr transfers blocks of data from buffer storage directly to main memory without CPU intervention
+    2. Device controller transfers blocks of data from buffer storage directly to main memory without CPU intervention
     3. Only one interrupt is generated per block, rather than the one interrupt per byte
 
 - Storage Structure
@@ -202,7 +202,7 @@
 - Entire speed of computer operation hinges on disk subsystem and its algorithms
 - OS activities
     1. Free-space management
-    2. Sotrage allocation
+    2. Storage allocation
     3. Disk scheduling
 
 - Some storage need not to be fast
@@ -551,7 +551,7 @@
 - Can implement a counting semaphore as a binary semaphore
 
 ## Semaphore Implementation
-- Must guarantee thaat no two processes can execute the **wait()** and **signal()** on the same semaphore at the same time.
+- Must guarantee that no two processes can execute the **wait()** and **signal()** on the same semaphore at the same time.
 - Thus, the implementation becomes the critical section problem where the **wait** and **signal** code are placed in the critical section
     1. Could now have **busy waiting** in critical section implementation
 - Note that applications may spend lots of time in critical sections and therefore this is not a good solution
@@ -578,4 +578,482 @@
 - But not powerful enough to model some synchronization schemes
 
 # CPU Scheduling
-Didnt start video
+- **Cycle** : Atomic. Non-divisible.
+- Operating system must have process management.
+
+## CPU Scheduler
+- **Short-term scheduler** selects from among the processes in ready queue, and allocates the CPU to one of them
+    1. Queue may be ordered in various ways
+- CPU scheduling decisions may take place when a proocess
+    1. Switches from running to waiting state
+    2. Switches from running to ready state
+    3. Switches from waiting to ready
+    4. Terminates
+- Scheduling under 1 and 4 is non **non-preemptive**
+- All other scheduling is **preemptive**
+    1. Consider access to shared data
+    2. Consider preemption while in kernel mode
+    3. Consider interrupts occuring during crucial OS activities
+
+## Dispatcher
+- Dispatcher module gives control of the CPU to the process selected by the short-term scheduler, this involves
+    1. Switching context
+    2. Switch to user mode
+    3. Jumping to the proper location in the user program to restart that program
+- **Dispatch latency** - Time it takes for the dispatcher to stop one process and start another running
+
+## Scheduling Criteria
+- **CPU utilization** : Keep the CPU as busy as possible
+- **Throughput** : # of processes that complete their execution per time unit
+- **Turnaround time** : Amount of time to execute a particular process
+- **Waiting time** : Amount of time a process has been waiting in the ready queue.
+- **Response time** : Amount of time it takes from when a request was submitted until the first response is produced, not output(for time-sharing enviroment)
+- Scheduling Algorithm Optimization
+    1. Max CPU utilization
+    2. Max throughput
+    3. Min turnaround time
+    4. Min waiting time
+    5. Min response time
+
+## Scheduling Algorithms
+- In real life, before running the process, it is not possible to know how long it will take in CPU.
+### First-Come, First-Served(FCFS) Scheduler
+- This is implemented in fifo queue.
+- First come first served basically.
+- **Convoy Effect** : Short process behind long process.
+
+### Shortest-Job-First (SJF) Schedling
+- Associate with each process the length of its next CPU burst
+- SJF is optimal - gives minimum averae waiting time for a given set of processes.
+    1. The difficulty is knowing the length of the next CPU request
+- It is non-preemptive
+### Shortest-Remaining-Time-First
+- This takes account the arrival time and time remaining to complete. The one with shortest time left is scheduled.
+- It is preemptive.
+
+### Priority Scheduling
+- A priority number(integer) is associated with each process
+- The CPU is allocated to the process with the highest priority(smallest integer = highest priority)
+    1. Preemptive
+    2. Non-Preemptive
+
+- SJF is priority scheduling where priority is the inverse of predicated next CPU burst time
+- Problem = **Starvation** - low priority processes may never execute
+- Solution = **Aging** - As time progresses increase the priority of the process
+
+### Round Robin(RR)
+- Each process gets a small unit of CPU time(**time quantum** q), usually 10-100 milliseconds. After time time has elapsed, the process is preempted and added to the end of the ready queue.
+- If there are n process in the ready queue and the time quantum is q, then each process gets 1/n of the CPU time in chunks of at msot q time units at once. No process waits more than (n - 1)q time units
+- Timer interrupts every quantum to schedule next process.
+- Performance
+    1. q large -> FIFO
+    2. q small -> q must be large with respect to context switch, otherwise overhead is too high.
+
+### Multi-Level Queues
+- Ready queue is partitioned into separate queues
+    1. **Foreground** : Interactive
+    2. **Background** : Batch
+- Process permanently in given queue
+- Each queue has its own scheduling algorithm
+    1. **Foreground** : Round-Robin
+    2. **Background** : First Come - First Served
+- Scheduling must be done between queues
+    1. Fixed priority scheduling(serve all from foreground then from background). Possibility of starvation
+    2. Time slice - Each queue gets a certain amount of CPU time which it can schedule amongst its processes. ie %80 to foreground in RR
+    3. %20 to background in FCFS
+
+# Deadlocks
+- The key of deadlock is process cant finish and wait each other.
+- If graph contains no cycles -> No deadlock
+- If graph contains a cycle
+    1. If only one instance per resource type, then deadlock
+    2. If several instances per resource type, possibility of deadlock.
+## Deadlock Characterization
+- Deadlock can arise if four conditions hold simultneously
+    1. **Mutual Exclusion** : Only one process at a time can use a shared resource
+    2. **Hold and wait** : A process holding at least one resource waiting to acquire additional resources held by other processes
+    3. **No preemption** : A resource can be released only voluntarily by the process holding it, after that process has completed its task
+    4. **Circular wait** : There exist a set {P0, P1, ..., Pn} of waiting processes such that P0 is waiting for a resource that is held by P1, P1 is waiting for resource that is held by P2, ... Pn-1 is waiting for a resource that is held by Pn and Pn is waiting for a resource that is held by P0
+
+## Methods for Handling Deadlocks
+- Ensure tht the system will **never** enter a deadlock state.
+    1. Deadlock prevention
+    2. Deadlock avoidence
+- Allow the system to enter a deadlock state and then recover
+- Ingore the problem and pretend that deadlocks never occur in the system, used by most opereating systems including UNIX
+
+## Deadlock Prevention
+- Restrain the ways request can be made
+- **Mutual Exclusion** : Not required for sharable resources(e.g read-only files), must hold for non-sharable resource
+- **Hold and Wait** : Must guarantee that whenever a process request a resource, it does not hold any other resources
+    1. Require process to request and be allocated all its resources before it begins execution, or allow process to request resources only when the process has none allocated to it.
+    2. Low resource utilization; starvation possible.
+- **No Preemption** : 
+    1. If a process that is holding some resources requests another resource that cannot be immediately allocated to it, then all resources currently being held are released
+    2. Preempted resources are added to the list of resources for which the process is waiting
+    3. Process will be restarted only when it can regain its old resources, as well as the new ones that it is requesting
+- **Circular Wait** : Impose a total ordering of all resources types, and require that each process requests resources in an increasing order of enumeration.
+
+## Deadlock Avoidance
+- Requires that the system has some additional **a priori** information avaiable
+- Simplest and most usefull model requires that each process declare the **maximum number** of resources of each type that it may need.
+- The deadlock-avoidance algorithm dynamically examines the resource-allocation state to ensure that there can never be a circular-wait condition
+- Resource-allocation state is defined by the number of available and allocated resources, and the maximum demands of the processes.
+
+- If a systems is in safe state -> no deadlocks
+- If a system is in unsafe state -> Possiblity of deadlocks
+- Avoidance -> Ensure that a system will never enter an unsafe state.
+
+- Avoidance Algorithms
+    1. Single Instance of a resource type  
+        1. Use a resource-allocation graph
+    2. Multiple instances of a resource type
+        1. Use the banker's algorithm
+
+### Banker Algorithm
+- Multiple instances
+- Each process must a priori claim maximum use
+- When a process requests a resource it may have to wait
+- When a process gets all its resources it must return them in a finite amount of time
+
+# Memory Management
+- Program must be brought(from disk) into memory and placed within a process for it to be run
+- Main memory and registers are only storage CPU can access directly
+- Memory unit only sees a stream of addresses + read requests, or address + data and write requests
+- Register access is on CPU Clock(or less)
+- Main memory can take many cycles, causing a **stall**
+- **Cache** sits between main memory and CPU registers
+- Protection of memory required to ensure correct operation.
+- Each process lives in its own address space.
+
+## Base and Limit Registers
+- A pair of **base** and **limit registers** define the logical address
+- CPU must check every memory access generated in user mode to be sure it is between base and limit for that user
+
+![Base and Limit Registers](./Images/Base_Limit_Registers.PNG)
+
+## Address Binding 
+- Programs on disk, ready to be brought into memory to execute from an **queue**
+    1. Without support, must be loaded into address 0000
+- Inconvenient to have first process physical address always at 0000
+- Further, addresses represented in different ways at different stages of program's life
+    1. Source code addresses usually symbolic
+    2. Compiled code addresses **bind** to relocatable addresses
+        1. I.E. : 14 bytes from beginning of this module
+    3. Linker or loader will bind relocatable addresses to absolute addresses
+        1. I.E : 74014
+    4. Each binding maps one address space to another.
+
+## Binding of Instructions and Data to RAM
+- Address binding of instructions and data to memory addresses can happen at three different stages
+    1. **Compile time** : If memory location known a priori **absolute code** can be generated, must recompile code if starting location changes
+    2. **Load time** : Must generate **relocatable code** if memory location is not known at compile time.
+    3. **Execution time** : Binding delayed until run time if the process can be moved during its execution from one memory segment to another.
+
+![Process Stages](./Images/Process_Stages.PNG)
+
+## Logical vs Physical Address
+- The concept of a logical address space that is bound to a separate **physical address space** is central to proper memory management
+    1. **Logical Address** : Generated by the CPU, also refered to as **virtual address**
+    2. **Physical Address** : Address seen by the memory unit
+- Logical and physical addresses are the same in compile-time and load-time address-binding schemes; logical(virtual) and physical addresses differ in execution-time address-binding scheme
+- **Logical address space** is the set of all logical addresses generated by a program
+- **Physical address space** is the set of all physical addresses generated by a program.
+
+## Dynamic relocation using a relocation register
+- Routine is not loaded until it is called
+- Better memory-space utilization; unused routine is never loaded
+- All routines kept on disk in relocatable load format
+- Useful when large amounts of code are needed to handle infrequently occuring cases
+- No special support from the operating system is required
+    1. Implemented through program design
+    2. OS can help by prodiving libraries to implement dynamic loading
+
+![Relocatable Register](./Images/Relocatable.PNG)
+
+## Dynamic Linking 
+- **Static Linking** : System libraries and program code combinied by the loader into the binary program image
+- Dynamic linking - linking postponed until execution time
+- Small piece of code, **stub**, used to locate the appropriate memory-resident library routine
+- Stub replaces itself with the address of the routine, and executes the routine
+- Operating system checks if routine is in processses memory address
+    1. If not in address space, add to address space
+- Dynamic linking is particualarly useful for libraries
+- System also known as **shared libraries**
+- Consider applicability to patching system libraries
+    1. Versioning may be needed.
+
+## Swapping
+- A process can be **swapped** temporarily out of memory to a backing store, and then brought back into memory for continued execution
+    1. Total physical memory space of processes can exceed physsical memory
+- **Backing store** : Fast disk large enough to accomodate copies of all memory images for all users; must provide direct access to these memory images
+- **Roll out, roll in** : Swapping variant used for priority-based scheduling algorithms; lower-priority process is swapped out so higher-priority process can be loaded and executed.
+- Major part of swap time is transfer time; total transfer time is directly proportional to the amount of memory swapped
+- System maintains  a **ready queue** of ready-to-run processes which have memory images on disk
+
+![Relocatable Register](./Images/Swapping.PNG)
+
+## Multiple-Partition Allocation
+- Multiple-partition allocation
+    1. Degree of multiprogramming limited by number of partitions
+    2. **Variable-partition** sizes for efficency(sized to a give process)
+    3. **Hole** - block of available memory; holes of various size of scattered throughout memory. 
+    4. When a process arrives, it is allocated memory from a hole large exit to accommodate it
+    5. Process existing frees its partition, adjacent free partitions combined
+    6. Operating system maintains information about
+        1. Allocated partitions
+        2. Free Partitions(Hole)
+
+![Multiple Partitions](./Images/Partitions.PNG)
+
+## Dynamic Storage-Allocation Program
+- How to satisfy a request of size **n** from a list of free holes
+- **First-fit** : Allocate the **first** hole that is big enough 
+- **Best-fit** : Allocate the **smallest** hole that is big enough must search entire lsit, unless ordered by size
+- **Worst-fit** : Allocate the **largest** hole; must also search entire list
+- First-fit and best-fit better than worst-fit in terms of speed and storage utilization
+
+## Fragmentation
+- **External Fragmentation** : Total memory space exists to satisfy a request, but it is not contiguous
+- **Internal Fragmentation** : Allocated memory may be slightly larger than requested memory; this size difference is memory internal to a partition, but not being used
+- First fit analysis reveals that given N blocks allocated 0.5 blocks lost to fragmentation
+- Reduce external fragmentation by **compaction**
+    1. Shuffle memory contents to place all free memory together in one large block
+    2. Compaction is possible only if relocation is dynamic, and is done at execution time
+
+## Segmentation
+- Memory-management scheme that supports user view of memory
+- A program is collection of segments. A segment is logical unit such as :
+- Main Program, Procedure, Function, Method, Object, Local Variables, Global variables, Common Block, Stack, Symbol Table, Arrays
+
+## Segmentation Architecture
+- **Segmentation table** : Maps two-dimensional physical addresses, Each table has :
+    1. **base** : Contains the starting physical address where the segments reside in memory
+    2. **limit** : Specifies the length of the segment
+- **Segment-table base register(STBR)** : Points to the segment table's location in memory
+- **Segment-table length register(STLR)** : Indicates number of segments used by a program
+
+## Paging
+- Physical address space of a process can be noncontiguous process is allocated physical memory whenever the latter is available
+    1. Avoids external fragmentation
+    2. Avoids problem of varying size memory chunks
+- Divide physical memory into fixed-sized blocks called **frames**
+-   1. Size is power of 2, between 512 bytes and 16 Mbytes
+- Divide logical memory into blocks of same size called pages
+- Keep track of all free frames
+- To run a prograam of size **N** pages, need to find **N** free frames and load program
+- Set up a **page table** to translate logical to physical addresses
+- Backing store likewise split into pages
+- Still have Internal fragmentation
+
+# Mass-Storage Systems
+- **Magnetic disks** provides bulk of secondary storage of mode
+    1. Drives rotate at 60 to 250 times per second
+    2. **Transfer rate** is rate at which data flow between drive
+    3. **Positioning time(random-access time)** is time find desired cylinder(**seek time**) and time for desired section under the disk head(**rotational latency**)
+    4. **Head crash** results from disk head making contact with the disk surface -- That's bad
+- Disk can be removable
+- Drive attached to computer via **I/O bus**
+    1. Busses vary, including **EIDE, ATA, SATA, USB, Fibre Channel, SCSI, SAS, Firewire**
+    2. **Host controller** in computer uses bus to talk to **disk controller** built into drive or storage array
+
+## Magnetic Tape
+-  Was early secondary-storage medium
+- Relatively permanent and holds large quantities of data
+- Access time slow
+- Random access~1000 times slower than disk
+- Mainly used for backup, storage of infrequently-used data, transfer medium between systems
+- Kept in spool and wound or rewound past read-write head
+- Once data under head, transfer rates comparable to disk
+- 200GB to 1.5TB Typical storage
+
+## Disk Structure
+- Disk drives are addressed as large 1-dimensional arrays of **blocks** where the logical block is the smallest unit of transfer
+- The 1-dimensinonal array of logical blocks is mapped into the sectors of the disk sequentially
+
+# File-System Interface
+- Contiguous logical address space
+- Types : 
+    1. Data : Numeric, Character, binary
+    2. Program
+- Contents defined by file's creator
+    1. Many types : Text file, source file, executable file, ...
+
+## File Attributes
+- **Name** : Only information kept in human-readable form
+- **Identifier** : Unique tag(number) identifies file within file system
+- **Type** : Needed for systems that support different types
+- **Location** : Pointer to file location on device
+- **Size** : Current file size
+- **Protection** : Controls who can do reading, writing, executing
+- **Time, date and user identification** : Data for protection, security and usage monitoring
+- Information about files are kept in the directory structure which is maintained on the disk
+- Many variations including extended file attributes such as file checksum
+- Information kept in the directory structure
+
+## File Operations
+- File is an **abstract data type** 
+- **Create**, **Write** -at **write pointer** location, **Read** - at **read pointer** location
+- **Reposition within file** - seek
+- **Delete**
+- **Truncate**
+- **Open(Fi)** : Search the directory structure on disk for entry Fi and move the content of entry to memory
+- **Close(Fi)** : Move the content of entry Fi in memory to diectory structure on disk
+
+## Open files
+- Several pieces of data are needed to manage open files
+    1. **Open-file table** : Tracks open files
+    2. **File Pointer** : Pointer to last read/write location, per process that has the file open
+    3. **File-open count** : Counter of number of times a file is open - to allow removal of data from open-file table when last processes closes it
+    4. **Disk location of the file** : Cache of data access information
+    5. **Access rights** Per-Process access mode information
+
+## Open File Locking
+- Provided by some operating systems and file systems
+    1. Similiar to reader-writer locks
+    2. **Shared lock** similiar to reader lock - several processes can acquire concurrently
+    3. **Exclusive lock** similar to writer lock
+- Mediates access to a file
+- Mandatory or advisory
+    1. **Mandatory** : Access is denied depending on locks held and requested
+    2. **Advisory** : Processes can find status of locks and decide what to do
+
+## File Structure
+- None - sequence of words, bytes
+- Simple Record Structure : Lines, Fixed Length, Variable Length
+- Complex Structure : Formatted document, Relocatable load file
+- Can simulate last two with first method by inserting appropriate control characters
+- Who Decides : Operating System, Program 
+
+## Disk Structure
+- Disk can be subdivided into **partitions**
+- Disks or partitions can be **RAID** protected against failure
+- Disk or partition can be used **raw** - without a file system, or **formatted** with a file system
+- Partitions also known as minidisks, slices
+- Entity contaning file system known as a **volume**
+- Each volume contanining file system also tracks that file system's info in **device directory** or **volume table of contents**
+- As well as **general-purpose file systems** there are many **special-purpose file systems**, frequently all within the same operating system or computer
+
+## File Sharing
+- Sharing of files on multi-user systems is desirable
+- Sharing may be done through a **protection** scheme
+- On distributed systems, files may be shared across a network
+- Network File System(NFS) is a common distributed file-sharing method
+- If multi-user system
+    1. **User IDs** identify users, allowing permissions and protections to be per-user, **Group IDs** allow users to be in groups, permitting group access rights
+
+# File System Implementation
+
+## File-System Structure
+- File structure
+    1. Logical storage unit
+    2. Collection of related information
+- **File system** resides on secondary storage(disks)
+    1. Provided user interface to storage, mapping logical to partition
+    2. Provides efficent and convenient access to disk by allowing data to be stored, located retrieved easily
+- Disk provides in-place rewrite and random access
+    1. I/O transfers performed in **blocks** of **sectors**
+- **File control block** - storage structure consisting of information about a file
+- **Device driver** controls the physical device
+- File system organized into layers
+
+# I/O Systems
+- I/O management is a major component of operating system design and operation
+    1. Important aspect of computer operation
+    2. I/O devices vary greatly
+    3. Various methods to control them
+    4. Performance management
+    5. New types of devices frequent
+- Ports, busses, device controllers connect to various devices
+- **Device drivers** encapsulate device details
+    1. Present uniform device access interface to I/O subsystem
+
+## I/O Hardware
+- Incredible variety of I/O devices : Storage, Transmission, Human-Interface
+- Common concepts - Signals from I/O devices interface with CPI
+    1. **Port** : Connection point for device
+    2. **Bus-daisy chain** or shared direct access
+    3. **Controller(Host adapter)** : Electronics that operate port, bus, device
+- I/O instructions control devices
+- Devices usually have registers where device driver places commands, addresses, and data to write, or read data from registers after command execution
+- Devices have addresses, used by 
+    1. Direct I/O instructions
+    2. Memory-mapped I/O
+
+## Polling
+- For each byte of I/O
+    1. Read busy bit from status register until 0
+    2. Host sets read or write bit and if write copies data into data register
+    3. Host sets command-ready bit
+    4. Controller sets busy bit, executes transfer
+    5. Controller clears busy bit, error bit, command-ready bit when transfer done
+- Step 1 is **busy-wait** cycle to wait for I/O from device
+    1. Reasonable if device is fast
+    2. But inefficent if device slow
+    3. CPU swithces to other tasks
+
+## Interrupts
+- Polling can happen in 3 instruction cycles
+    1. Read status, logical-and to extract status bit, branch if not busy
+    2. How to be more efficent if non-zero infrequently
+- CPU **interrupt-request line** trigged by I/O device
+    1. Checked by processor after each instruction
+- **Interrupt handler** receives interrupts
+    1. **Maskable** to ignore or delay some interrupts
+- **Interrupt vector** to dispatch interrupt to correct handler
+    1. Context switch at start and end
+    2. Based on priority
+    3. Some **nonmaskable**
+    4. Interrupt chaining if more than one device at same interrupt number
+- Interrupt mechanism also used for **exceptions** 
+    1. Terminate process, crash system due to hardware error
+- Page fault executes when memory access error
+- System call executes via **trap** to trigger kernel to execute request
+- Multi-CPU systems can process interrupts concurrently
+    1. If operating system designed to handle it
+- Used for time sensitive processing, frequent, must be fast
+
+## Direct Memory Access
+- USed to avoid **programmed I/O**(one byte at a time) for large data movement
+- Requires **DMA** Controller
+- Bypasses CPU to transfer data directly between I/O device and memory
+- OS writes DMA command block into memory
+- Version that is aware of virtual addresses can be even more efficent - **DVMA**
+
+## Application I/O Interface
+- I/O system calls encapsulate device behaviors in generic classes
+- Device-driver layer hides differences among I/O controllers fromUser
+- New devices talknig already-implemented protocols need no extra work
+- Each OS has its own I/O subsystem structures and device driver frameworks
+- Devices vary in many dimensions
+    1. **Character-steram** or **block**
+    2. **Sequential** or **random-access**
+    3. **Synchronous** or **asynchronous**
+    4. **Sharable** or **dedicated**
+    5. **Speed of operation**
+    6. **Read-Write**, **Read only** or **Write only**
+
+## Kernel I/O Subsystem
+- **Caching** : Faster device holding copy of data
+    1. Always just a copy
+    2. Key to performance
+    3. Sometimes combined with buffering
+- **Spooling** : Hold output for a device
+    1. If device can serve only on request at a time
+- **Device reservation** : Provides exclusive access to a device
+    1. System calls for allocation and de-allocation
+    2. Watch out for deadlock
+
+## Error Handling
+- OS can recover from disk read, device unavailable, transient write failures
+- Most return an error number or code when I/O request fails
+- System error logs hold problem reports
+
+# Proc File System
+- Proc is abbrevation for Process.
+- /proc directory is not a real file system
+- It is Virtual File System
+- Information about processes and other system information.
+- It is mapped to /proc and mounted at boot time.
+
+# Protection
