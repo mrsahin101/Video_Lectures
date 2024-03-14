@@ -3,3 +3,5 @@
 - **prevalent** : yaygın, mevcut, genel, hüküm süren;
 - **intermediary** : araci, ara, arabulucu, orta;
 - **restrain** : dizginlemek, tutmak, engellemek, bastırmak;
+- **intruders** : davetsiz misafirler;
+- **breach** : çiğneme, ihlal, gedik, uymama, yarmak, bozma;

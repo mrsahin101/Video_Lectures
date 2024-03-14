@@ -1057,3 +1057,84 @@
 - It is mapped to /proc and mounted at boot time.
 
 # Protection
+
+## Principle of Protection
+- Guiding principle - **principle of least privilege**
+    1. Programs, users and systems should be given just enough **privileges** to perform their tasks
+    2. Limits damage if entity has a bug, gets abused
+    3. Can be static(during life of system, during life of process)
+    4. Or dynamic(changed by process as needed) - **domain switching, privilege escalation**
+    5. "Need to know" a similiar concept regarding access to data.
+
+- Gerekmeyen yetkiyi, gerekmeyen bilgiyi, gerekmeyen kisiye verme!
+
+- Must consider "grain" aspect
+    1. Rough-grained privilege management easier, simpler but least privilege now done in large chunks
+    2. Fine-grained management more complex, more overhead, but more protective
+- Domain can be user, process, procedure
+- Domain : Set of access-rights
+
+## Access Control
+- Protection can be applied to non-file resources
+- Oracle Solaris provides **role-based access control(RBAC)** to implement least privilege
+    1. **Privilege** is right to execute system call or use an option within a system call
+    2. Can be assigned to processes
+    3. Users assigned **roles** granting access to privileges and programs
+    4. Similar to access matrix.
+
+# Security
+
+## The Security Problem
+- System **secure** if resources used and accessed as intended under all circumstances
+    1. Unachievable
+- **Intrudres(crackers)** attempt to breach security
+- **Threat** is potential security violation
+- **Attack** is attempt to breach security
+- **Attack** can be accidentaal or malicious
+- Easier to protect against accidental than malicious misuse
+
+## Security Violation Categories
+- **Breach of confidentiality** : Un-authorized reading of data
+- **Breach of integrity** : Un-authorized modification of data
+- **Breach of availability** : Un-authorized destruction of data
+- **Theft of service** : Un-authorized use of resources
+- **Denial of service(DOS)** : Prevention of legitimate use
+
+## Security Violation Methods
+- **Masquerading**(breach authentication) : Pretending to be an authorized user to escalate privilege
+- **Replay** : As is or with **message modification**
+- **Man-in-the-middle-attack** : Intruder sits in data flow, masquerading as sender to receiver and vice versa
+- **Session hijacking** : Intercept an already- established session to bypass authentication
+
+## security Measure Levels
+- Impossible to have absolute security, but make cost to perpetrator sufficiently high to deter most intruders
+- Security must occur at four levels to be effective
+    1. **Physical** : Data centers, servers, connected terminals
+    2. **Human** : Avoid social engineering, phishing, dumpster diving
+    3. **Operating System** : Protection mechanisms, debugging
+    4. **Network** : Intercepted communications, interruption, DOS
+- Security is as weak as the weakest link in the chain.
+
+## Program Threats
+- Many variations, many names
+- **Trojan Horse** 
+    1. Code segment that misuses its environment
+    2. Exploits mechanisms for allowing programs withtten by user executed by other users
+    3. **Spyware**, **pop-up browser windows**, **covert channels**
+    4. Up to %80 of spam delivered by spyware-infected systems
+- **Trap Door** :
+    1. Specific user identifier or password that circumvents normal security procedures
+    2. Could be included in a compiler
+- **Logic Bomb** : Program that initiates a security incident under certain circumstances
+- **Stack** and **Buffer Overflow** : 
+    1. Exploits a bug in program(overflow either in stack or memory buffers)
+    2. Failure to check bounds on inputs, arguments
+    3. Write past arguments on the stack into the return address on stack
+    4. When routine returns from call, returns to hacked address
+    5. Unauthorized user or privilege escalation
+- **Viruses** :
+    1. Code fragment embedded in legitimate program
+    2. Self-replicating, designed to infect other computers
+    3. Very specific to CPU architecture, operating system
+    4. Usually borne via email or as a macro
+
