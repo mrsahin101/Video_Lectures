@@ -8,3 +8,4 @@
 - Process contains threads for sub units for desired jobs. 
 - Threads share same address spaces within same process threads.
 - Operating systems are provide services which could be runing in background. 
+- Every Process is has parent process. 
