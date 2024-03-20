@@ -2,4 +2,4 @@
 - **inclination** : eğim, meyil, eğiklik, beğeni;
 - **advent** : geliş;
 - **applet** : küçük uygulama;
-- **dubious** : şüpheli, karasız;
+- **dubious** : şüpheli, kararsız;

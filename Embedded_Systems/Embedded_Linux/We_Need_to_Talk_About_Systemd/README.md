@@ -1,0 +1,2 @@
+- Video Link : https://www.youtube.com/watch?v=NNgZXNQtil8&list=PLbzoR-pLrL6pamOj4UifcMJf560Ph6mJp
+- This talk is given by Chris Simmonds which is Author of Mastering Embedded Linux programming book.
