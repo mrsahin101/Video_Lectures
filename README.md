@@ -1,5 +1,5 @@
 # Video_Lectures
-Video lectures I go through to improve my skills
+Video lectures I go through to improve my skills. This is not just about embedded systems, but for general knowledge.
 
 # What is this for? 
 
